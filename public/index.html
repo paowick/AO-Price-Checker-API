@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>ao-price-checker-api</title>
+</head>
+
+<body>
+    <main>
+        <center>
+
+            <label for="qualities">qualities</label>
+            <select name="qualities" id="qualities">
+                <option value="1"> Normal </option>
+                <option value="2"> good </option>
+                <option value="3"> Outstanding </option>
+                <option value="4"> Excellent </option>
+                <option value="5"> Masterplece </option>
+            </select>
+            <label for="item">itemt id</label>
+            <input type="text" name="item" id="item" placeholder="T4_BAG"><br>
+            <a href="https://github.com/ao-data/ao-bin-dumps/blob/master/formatted/items.txt">find itemID here</a><br>
+            <button onclick="pull()">pull</button>
+            <table id="board">
+                <tr>
+                    <th></th>
+                    <th>Bridgewatch</th>
+                    <th>Caerleon</th>
+                    <th>FortSterling</th>
+                    <th>Lymhurst</th>
+                    <th>Martlock</th>
+                    <th>Thetford</th>
+                </tr>
+                <tr>
+                    <th>sell min</th>
+                    <th id="SMIN_B"></th>
+                    <th id="SMIN_C"></th>
+                    <th id="SMIN_F"></th>
+                    <th id="SMIN_L"></th>
+                    <th id="SMIN_M"></th>
+                    <th id="SMIN_T"></th>
+                </tr>
+                <tr>
+                    <th>sell max</th>
+                    <th id="SMAX_B"></th>
+                    <th id="SMAX_C"></th>
+                    <th id="SMAX_F"></th>
+                    <th id="SMAX_L"></th>
+                    <th id="SMAX_M"></th>
+                    <th id="SMAX_T"></th>
+                </tr>
+                <tr>
+                    <th>buy min</th>
+                    <th id="BMIN_B"></th>
+                    <th id="BMIN_C"></th>
+                    <th id="BMIN_F"></th>
+                    <th id="BMIN_L"></th>
+                    <th id="BMIN_M"></th>
+                    <th id="BMIN_T"></th>
+                </tr>
+                <tr>
+                    <th>buy max</th>
+                    <th id="BMAX_B"></th>
+                    <th id="BMAX_C"></th>
+                    <th id="BMAX_F"></th>
+                    <th id="BMAX_L"></th>
+                    <th id="BMAX_M"></th>
+                    <th id="BMAX_T"></th>
+                </tr>
+            </table>
+        </center>
+    </main>
+</body>
+
+</html>
