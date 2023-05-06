@@ -37,153 +37,187 @@
             <a href="https://github.com/ao-data/ao-bin-dumps/blob/master/formatted/items.txt">find itemID here</a><br>
             <button onclick="chart()">pull data</button>
 
-            <div id="table">
+            <div id="board">
 
-                <h1>Bridgewatch</h1>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>sell min</th>
-                        <th>sell max</th>
-                        <th>buy min</th>
-                        <th>buy max</th>
-                    </tr>
-                    <tr>
-                        <th>Bridgewatch</th>
-                        <th id="SMIN_B"></th>
-                        <th id="SMAX_B"></th>
-                        <th id="BMIN_B"></th>
-                        <th id="BMAX_B"></th>
-                    </tr>
-                </table>
-                <canvas id="0"></canvas>
-                <canvas id="10"></canvas>
-
-                <h1>Caerleon</h1>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>sell min</th>
-                        <th>sell max</th>
-                        <th>buy min</th>
-                        <th>buy max</th>
-                    </tr>
-                    <tr>
-                        <th>Caerleon</th>
-                        <th id="SMIN_C"></th>
-                        <th id="SMAX_C"></th>
-                        <th id="BMIN_C"></th>
-                        <th id="BMAX_C"></th>
-                    </tr>
-                </table>
-                <canvas id="1"></canvas>
-                <canvas id="11"></canvas>
-
-
-                <h1>Fort Sterling</h1>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>sell min</th>
-                        <th>sell max</th>
-                        <th>buy min</th>
-                        <th>buy max</th>
-                    </tr>
-                    <tr>
-                        <th>Fort Sterling</th>
-                        <th id="SMIN_F"></th>
-                        <th id="SMAX_F"></th>
-                        <th id="BMIN_F"></th>
-                        <th id="BMAX_F"></th>
-                    </tr>
-                </table>
-                <canvas id="2"></canvas>
-                <canvas id="12"></canvas>
-
-                <h1>Lymhurst</h1>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>sell min</th>
-                        <th>sell max</th>
-                        <th>buy min</th>
-                        <th>buy max</th>
-                    </tr>
-                    <tr>
-                        <th>Lymhurst</th>
-                        <th id="SMIN_L"></th>
-                        <th id="SMAX_L"></th>
-                        <th id="BMIN_L"></th>
-                        <th id="BMAX_L"></th>
-                    </tr>
-                </table>
-                <canvas id="3"></canvas>
-                <canvas id="13"></canvas>
-
-                <h1>Martlock</h1>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>sell min</th>
-                        <th>sell max</th>
-                        <th>buy min</th>
-                        <th>buy max</th>
-                    </tr>
-                    <tr>
-                        <th>Martlock</th>
-                        <th id="SMIN_M"></th>
-                        <th id="SMAX_M"></th>
-                        <th id="BMIN_M"></th>
-                        <th id="BMAX_M"></th>
-                    </tr>
-                </table>
-                <canvas id="4"></canvas>
-                <canvas id="14"></canvas>
-
-                <h1>Thetford</h1>
-                <table>
-                    <tr>
-                        <th></th>
-                        <th>sell min</th>
-                        <th>sell max</th>
-                        <th>buy min</th>
-                        <th>buy max</th>
-                    </tr>
-                    <tr>
-                        <th>Thetford</th>
-                        <th id="SMIN_T"></th>
-                        <th id="SMAX_T"></th>
-                        <th id="BMIN_T"></th>
-                        <th id="BMAX_T"></th>
-                    </tr>
-                </table>
-                <canvas id="5"></canvas>
-                <canvas id="15"></canvas>
+                <div class="table">
+                    <div class="box">
+                        <h1>Bridgewatch</h1>
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>sell min</th>
+                                <th>sell max</th>
+                                <th>buy min</th>
+                                <th>buy max</th>
+                            </tr>
+                            <tr>
+                                <th>Bridgewatch</th>
+                                <th id="SMIN_B"></th>
+                                <th id="SMAX_B"></th>
+                                <th id="BMIN_B"></th>
+                                <th id="BMAX_B"></th>
+                            </tr>
+                        </table>
+                        <canvas id="0"></canvas>
+                        <canvas id="10"></canvas>
+    
+                    </div>
+                    <div class="box">
+                        <h1>Caerleon</h1>
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>sell min</th>
+                                <th>sell max</th>
+                                <th>buy min</th>
+                                <th>buy max</th>
+                            </tr>
+                            <tr>
+                                <th>Caerleon</th>
+                                <th id="SMIN_C"></th>
+                                <th id="SMAX_C"></th>
+                                <th id="BMIN_C"></th>
+                                <th id="BMAX_C"></th>
+                            </tr>
+                        </table>
+                        <canvas id="1"></canvas>
+                        <canvas id="11"></canvas>
+    
+                    </div>
+    
+                </div>
+    
+    
+                <div class="table">
+    
+                    <div class="box">
+    
+                        <h1>Fort Sterling</h1>
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>sell min</th>
+                                <th>sell max</th>
+                                <th>buy min</th>
+                                <th>buy max</th>
+                            </tr>
+                            <tr>
+                                <th>Fort Sterling</th>
+                                <th id="SMIN_F"></th>
+                                <th id="SMAX_F"></th>
+                                <th id="BMIN_F"></th>
+                                <th id="BMAX_F"></th>
+                            </tr>
+                        </table>
+                        <canvas id="2"></canvas>
+                        <canvas id="12"></canvas>
+                    </div>
+    
+    
+    
+    
+    
+                    <div class="box">
+                        <h1>Lymhurst</h1>
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>sell min</th>
+                                <th>sell max</th>
+                                <th>buy min</th>
+                                <th>buy max</th>
+                            </tr>
+                            <tr>
+                                <th>Lymhurst</th>
+                                <th id="SMIN_L"></th>
+                                <th id="SMAX_L"></th>
+                                <th id="BMIN_L"></th>
+                                <th id="BMAX_L"></th>
+                            </tr>
+                        </table>
+                        <canvas id="3"></canvas>
+                        <canvas id="13"></canvas>
+    
+                    </div>
+    
+                </div>
+    
+    
+                <div class="table">
+    
+                    <div class="box">
+    
+                        <h1>Martlock</h1>
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>sell min</th>
+                                <th>sell max</th>
+                                <th>buy min</th>
+                                <th>buy max</th>
+                            </tr>
+                            <tr>
+                                <th>Martlock</th>
+                                <th id="SMIN_M"></th>
+                                <th id="SMAX_M"></th>
+                                <th id="BMIN_M"></th>
+                                <th id="BMAX_M"></th>
+                            </tr>
+                        </table>
+                        <canvas id="4"></canvas>
+                        <canvas id="14"></canvas>
+                    </div>
+    
+                    <div class="box">
+    
+                        <h1>Thetford</h1>
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>sell min</th>
+                                <th>sell max</th>
+                                <th>buy min</th>
+                                <th>buy max</th>
+                            </tr>
+                            <tr>
+                                <th>Thetford</th>
+                                <th id="SMIN_T"></th>
+                                <th id="SMAX_T"></th>
+                                <th id="BMIN_T"></th>
+                                <th id="BMAX_T"></th>
+                            </tr>
+                        </table>
+                        <canvas id="5"></canvas>
+                        <canvas id="15"></canvas>
+                    </div>
+    
+                </div>
             </div>
             <script>
+                board = document.getElementById("board")
+                board.style.display = "none";
                 sold = 0
                 function chart() {
                     pull()
                     for (let index = 0; index < 6; index++) {
-                        if(Chart.getChart(index.toString()) != undefined){
+                        if (Chart.getChart(index.toString()) != undefined) {
                             Chart.getChart(index.toString()).destroy();
                         }
                         soldcheck = index + 10
-                        if(Chart.getChart(soldcheck.toString()) != undefined){
+                        if (Chart.getChart(soldcheck.toString()) != undefined) {
                             Chart.getChart(soldcheck.toString()).destroy();
                         }
                         historyData(index)
                     }
-                    var x = document.getElementById("table");
-                    x.style.display = "block";
+                board.style.display = "block";
                 }
 
                 // historyData()
                 async function historyData(index) {
-                    
-                    
-                    
-                    
+
+
+
+
                     item = document.getElementById("item").value
                     quality = document.getElementById("qualities").value
                     time_Scale = document.getElementById("timeScale").value
@@ -215,7 +249,7 @@
                             }
                         }
                     });
-                    sold = index+10
+                    sold = index + 10
                     new Chart(document.getElementById(sold.toString()), {
                         type: 'bar',
                         data: {
@@ -242,17 +276,17 @@
                     const rawData = await fetch(`https://east.albion-online-data.com/api/v2/stats/prices/${item}?locations=Caerleon,Bridgewatch,FortSterling,Lymhurst,Martlock,Thetford&qualities=${quality}`)
                     const data = await rawData.json()
                     console.log(data);
-                    board(data)
+                    boardland(data)
 
                 }
-                function board(data) {
+                function boardland(data) {
                     document.getElementById("SMIN_B").innerHTML = data[0].sell_price_min
                     document.getElementById("SMIN_C").innerHTML = data[1].sell_price_min
                     document.getElementById("SMIN_F").innerHTML = data[2].sell_price_min
                     document.getElementById("SMIN_L").innerHTML = data[3].sell_price_min
                     document.getElementById("SMIN_M").innerHTML = data[4].sell_price_min
                     document.getElementById("SMIN_T").innerHTML = data[5].sell_price_min
-                    
+
                     document.getElementById("SMAX_B").innerHTML = data[0].sell_price_max
                     document.getElementById("SMAX_C").innerHTML = data[1].sell_price_max
                     document.getElementById("SMAX_F").innerHTML = data[2].sell_price_max

@@ -13,6 +13,21 @@ canvas {
     margin-left: 100px;
     margin-right: 100px;
 }
-#table {
-    display: none;
+.table {
+    
+    margin: 0 0;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    
+}
+@media (max-width: 1300px) {
+  .table {
+    flex-direction: column;
+  }
+}
+.box {
+    margin: 1em;
+    width: 800px ;
+    height: fit-content;
 }
