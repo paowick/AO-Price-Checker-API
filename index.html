@@ -32,12 +32,14 @@
                 <option value="6">7 day</option>
                 <option value="24">30 day</option>
             </select>
-            <label for="item">itemt id</label>
+            <label for="item">item id</label>
             <input type="text" name="item" id="item" placeholder="T4_BAG"><br>
             <a href="https://github.com/ao-data/ao-bin-dumps/blob/master/formatted/items.txt">find itemID here</a><br>
             <button onclick="chart()">pull data</button>
 
             <div id="table">
+
+                <h1>Bridgewatch</h1>
                 <table>
                     <tr>
                         <th></th>
@@ -56,6 +58,8 @@
                 </table>
                 <canvas id="0"></canvas>
                 <canvas id="10"></canvas>
+
+                <h1>Caerleon</h1>
                 <table>
                     <tr>
                         <th></th>
@@ -76,7 +80,7 @@
                 <canvas id="11"></canvas>
 
 
-
+                <h1>Fort Sterling</h1>
                 <table>
                     <tr>
                         <th></th>
@@ -86,7 +90,7 @@
                         <th>buy max</th>
                     </tr>
                     <tr>
-                        <th>FortSterling</th>
+                        <th>Fort Sterling</th>
                         <th id="SMIN_F"></th>
                         <th id="SMAX_F"></th>
                         <th id="BMIN_F"></th>
@@ -96,7 +100,7 @@
                 <canvas id="2"></canvas>
                 <canvas id="12"></canvas>
 
-
+                <h1>Lymhurst</h1>
                 <table>
                     <tr>
                         <th></th>
@@ -116,6 +120,7 @@
                 <canvas id="3"></canvas>
                 <canvas id="13"></canvas>
 
+                <h1>Martlock</h1>
                 <table>
                     <tr>
                         <th></th>
@@ -135,6 +140,7 @@
                 <canvas id="4"></canvas>
                 <canvas id="14"></canvas>
 
+                <h1>Thetford</h1>
                 <table>
                     <tr>
                         <th></th>
@@ -196,7 +202,7 @@
                         data: {
                             labels: dataLabel,
                             datasets: [{
-                                label: '# of Votes',
+                                label: 'avg price',
                                 data: dataprice,
                                 borderWidth: 1
                             }]
@@ -215,7 +221,7 @@
                         data: {
                             labels: dataLabel,
                             datasets: [{
-                                label: '# of Votes',
+                                label: 'sold',
                                 data: datasold,
                                 borderWidth: 1
                             }]
