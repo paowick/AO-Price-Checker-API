@@ -9,3 +9,10 @@ button{
     width: 80px;
     height: 20px;
 }
+canvas {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#table {
+    display: none;
+}
