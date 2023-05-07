@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./index.css">
     <title>ao-price-checker-api</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./index.js"></script>
 
 </head>
 
@@ -33,8 +34,9 @@
                 <option value="24">30 day</option>
             </select>
             <label for="item">item id</label>
-            <input type="text" name="item" id="item" placeholder="T4_BAG"><br>
-            <a href="https://github.com/ao-data/ao-bin-dumps/blob/master/formatted/items.txt">find itemID here</a><br>
+            <input type="search" list="mylist" name="item" id="item" placeholder="T4_BAG" onkeydown="search()">
+            <datalist id="mylist"></datalist><br>
+
             <button onclick="chart()">pull data</button>
 
             <div id="board">
@@ -60,7 +62,7 @@
                         </table>
                         <canvas id="0"></canvas>
                         <canvas id="10"></canvas>
-    
+
                     </div>
                     <div class="box">
                         <h1>Caerleon</h1>
@@ -82,16 +84,16 @@
                         </table>
                         <canvas id="1"></canvas>
                         <canvas id="11"></canvas>
-    
+
                     </div>
-    
+
                 </div>
-    
-    
+
+
                 <div class="table">
-    
+
                     <div class="box">
-    
+
                         <h1>Fort Sterling</h1>
                         <table>
                             <tr>
@@ -112,11 +114,11 @@
                         <canvas id="2"></canvas>
                         <canvas id="12"></canvas>
                     </div>
-    
-    
-    
-    
-    
+
+
+
+
+
                     <div class="box">
                         <h1>Lymhurst</h1>
                         <table>
@@ -137,16 +139,16 @@
                         </table>
                         <canvas id="3"></canvas>
                         <canvas id="13"></canvas>
-    
+
                     </div>
-    
+
                 </div>
-    
-    
+
+
                 <div class="table">
-    
+
                     <div class="box">
-    
+
                         <h1>Martlock</h1>
                         <table>
                             <tr>
@@ -167,9 +169,9 @@
                         <canvas id="4"></canvas>
                         <canvas id="14"></canvas>
                     </div>
-    
+
                     <div class="box">
-    
+
                         <h1>Thetford</h1>
                         <table>
                             <tr>
@@ -190,15 +192,45 @@
                         <canvas id="5"></canvas>
                         <canvas id="15"></canvas>
                     </div>
-    
+
                 </div>
             </div>
             <script>
                 board = document.getElementById("board")
                 board.style.display = "none";
                 sold = 0
-                function chart() {
-                    pull()
+                async function chart() {
+                    dataHistoryValidate = [
+                        { location: 'Bridgewatch', item_id: null, quality: null, data: null },
+                        { location: 'Caerleon', item_id: null, quality: null, data: null },
+                        { location: 'Fort Sterling', item_id: null, quality: null, data: null },
+                        { location: 'Lymhurst', item_id: null, quality: null, data: null },
+                        { location: 'Martlock', item_id: null, quality: null, data: null },
+                        { location: 'Thetford', item_id: null, quality: null, data: null }
+                    ]
+                    await pull()
+                    const itemId = itemFilter.itemId
+                    const quality = document.getElementById("qualities").value
+                    const time_Scale = document.getElementById("timeScale").value
+                    const rawDataHistory = await fetch(`https://east.albion-online-data.com/api/v2/stats/history/${itemId}?time-scale=${time_Scale}&locations=Caerleon,Bridgewatch,FortSterling,Lymhurst,Martlock,Thetford&qualities=${quality}`)
+                    const dataHistory = await rawDataHistory.json()
+
+                    dataHistoryValidate.forEach((element) => {
+                        dataHistory.forEach((data) => {
+                            if(element.location == data.location){
+                                element.item_id = data.item_id
+                                element.quality = data.quality
+                                element.data = data.data
+                            }
+                            
+                        });
+                        }
+                    )
+
+
+
+
+
                     for (let index = 0; index < 6; index++) {
                         if (Chart.getChart(index.toString()) != undefined) {
                             Chart.getChart(index.toString()).destroy();
@@ -207,30 +239,29 @@
                         if (Chart.getChart(soldcheck.toString()) != undefined) {
                             Chart.getChart(soldcheck.toString()).destroy();
                         }
-                        historyData(index)
+                        historyData(index, dataHistoryValidate[index])
                     }
-                board.style.display = "block";
+                    board.style.display = "block";
                 }
 
                 // historyData()
-                async function historyData(index) {
-
-
-
-
-                    item = document.getElementById("item").value
-                    quality = document.getElementById("qualities").value
-                    time_Scale = document.getElementById("timeScale").value
-                    const rawDataHistory = await fetch(`https://east.albion-online-data.com/api/v2/stats/history/${item}?time-scale=${time_Scale}&locations=Caerleon,Bridgewatch,FortSterling,Lymhurst,Martlock,Thetford&qualities=${quality}`)
-                    const dataHistory = await rawDataHistory.json()
+                async function historyData(index, dataHistoryValidate) {
                     dataLabel = []
                     dataprice = []
                     datasold = []
-                    dataHistory[index].data.forEach(element => {
-                        dataLabel.push(element.timestamp)
-                        dataprice.push(element.avg_price)
-                        datasold.push(element.item_count)
-                    });
+
+
+                    if (dataHistoryValidate.data != null){
+                        dataHistoryValidate.data.forEach(element => {
+                                dataLabel.push(element.timestamp)
+                                dataprice.push(element.avg_price)
+                                datasold.push(element.item_count)
+                        });
+                    }
+
+
+
+
                     new Chart(document.getElementById(index.toString()), {
                         type: 'line',
                         data: {
@@ -270,44 +301,7 @@
                     });
 
                 }
-                async function pull() {
-                    item = document.getElementById("item").value
-                    quality = document.getElementById("qualities").value
-                    const rawData = await fetch(`https://east.albion-online-data.com/api/v2/stats/prices/${item}?locations=Caerleon,Bridgewatch,FortSterling,Lymhurst,Martlock,Thetford&qualities=${quality}`)
-                    const data = await rawData.json()
-                    console.log(data);
-                    boardland(data)
 
-                }
-                function boardland(data) {
-                    document.getElementById("SMIN_B").innerHTML = data[0].sell_price_min
-                    document.getElementById("SMIN_C").innerHTML = data[1].sell_price_min
-                    document.getElementById("SMIN_F").innerHTML = data[2].sell_price_min
-                    document.getElementById("SMIN_L").innerHTML = data[3].sell_price_min
-                    document.getElementById("SMIN_M").innerHTML = data[4].sell_price_min
-                    document.getElementById("SMIN_T").innerHTML = data[5].sell_price_min
-
-                    document.getElementById("SMAX_B").innerHTML = data[0].sell_price_max
-                    document.getElementById("SMAX_C").innerHTML = data[1].sell_price_max
-                    document.getElementById("SMAX_F").innerHTML = data[2].sell_price_max
-                    document.getElementById("SMAX_L").innerHTML = data[3].sell_price_max
-                    document.getElementById("SMAX_M").innerHTML = data[4].sell_price_max
-                    document.getElementById("SMAX_T").innerHTML = data[5].sell_price_max
-
-                    document.getElementById("BMIN_B").innerHTML = data[0].buy_price_min
-                    document.getElementById("BMIN_C").innerHTML = data[1].buy_price_min
-                    document.getElementById("BMIN_F").innerHTML = data[2].buy_price_min
-                    document.getElementById("BMIN_L").innerHTML = data[3].buy_price_min
-                    document.getElementById("BMIN_M").innerHTML = data[4].buy_price_min
-                    document.getElementById("BMIN_T").innerHTML = data[5].buy_price_min
-
-                    document.getElementById("BMAX_B").innerHTML = data[0].buy_price_max
-                    document.getElementById("BMAX_C").innerHTML = data[1].buy_price_max
-                    document.getElementById("BMAX_F").innerHTML = data[2].buy_price_max
-                    document.getElementById("BMAX_L").innerHTML = data[3].buy_price_max
-                    document.getElementById("BMAX_M").innerHTML = data[4].buy_price_max
-                    document.getElementById("BMAX_T").innerHTML = data[5].buy_price_max
-                }
             </script>
 
 
