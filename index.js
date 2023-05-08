@@ -40394,7 +40394,7 @@ async function pull() {
     ]
     dataValidate.forEach((element) => {
         data.forEach((data) => {
-            if (element.location == data.location) {
+            if (element.city == data.city) {
                 element.item_id = data.item_id
                 element.quality = data.quality
                 element.buy_price_max = data.buy_price_max
@@ -40414,7 +40414,7 @@ async function pull() {
     }
     )
 
-
+console.log(dataValidate);
     boardland(dataValidate)
 
 }
