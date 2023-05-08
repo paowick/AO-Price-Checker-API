@@ -1,7 +1,8 @@
 
 
 
-const itemlist = [
+const itemlist = 
+[
     {
         "itemId": "UNIQUE_HIDEOUT",
         "itemName": "Hideout Construction Kit"
@@ -243,6 +244,10 @@ const itemlist = [
         "itemName": "Caerleon Greywolf Pup"
     },
     {
+        "itemId": "T5_FARM_OWL_FW_BRECILIEN_BABY",
+        "itemName": "Mystic Owlet"
+    },
+    {
         "itemId": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_BABY",
         "itemName": "Baby Elite Terrorbird"
     },
@@ -265,6 +270,10 @@ const itemlist = [
     {
         "itemId": "T8_FARM_GREYWOLF_FW_CAERLEON_BABY",
         "itemName": "Elite Greywolf Pup"
+    },
+    {
+        "itemId": "T8_FARM_OWL_FW_BRECILIEN_BABY",
+        "itemName": "Elite Mystic Owlet"
     },
     {
         "itemId": "T6_FARM_DIREWOLF_GROWN",
@@ -331,6 +340,10 @@ const itemlist = [
         "itemName": "Tame Greywolf"
     },
     {
+        "itemId": "T5_FARM_OWL_FW_BRECILIEN_GROWN",
+        "itemName": "Tame Mystic Owl"
+    },
+    {
         "itemId": "T8_FARM_MOABIRD_FW_BRIDGEWATCH_GROWN",
         "itemName": "Tame Elite Terrorbird"
     },
@@ -353,6 +366,10 @@ const itemlist = [
     {
         "itemId": "T8_FARM_GREYWOLF_FW_CAERLEON_GROWN",
         "itemName": "Tame Elite Greywolf"
+    },
+    {
+        "itemId": "T8_FARM_OWL_FW_BRECILIEN_GROWN",
+        "itemName": "Tame Elite Mystic Owl"
     },
     {
         "itemId": "T3_FARM_CHICKEN_BABY",
@@ -772,83 +789,163 @@ const itemlist = [
     },
     {
         "itemId": "QUESTITEM_LIGHT_BLUEPRINTS",
-        "itemName": "Blueprints"
+        "itemName": "Delivery : Blueprints"
+    },
+    {
+        "itemId": "QUESTITEM_LIGHT_BLUEPRINTS",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_LIGHT_MANUSCRIPTS",
-        "itemName": "Artistic Manuscripts"
+        "itemName": "Delivery : Artistic Manuscripts"
+    },
+    {
+        "itemId": "QUESTITEM_LIGHT_MANUSCRIPTS",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_LIGHT_SURVEYS",
-        "itemName": "Geomantic Surveys"
+        "itemName": "Delivery : Geomantic Surveys"
+    },
+    {
+        "itemId": "QUESTITEM_LIGHT_SURVEYS",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_HEAVY_MORTAR",
-        "itemName": "Mortar"
+        "itemName": "Delivery : Mortar"
+    },
+    {
+        "itemId": "QUESTITEM_HEAVY_MORTAR",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_HEAVY_CRATE",
-        "itemName": "Crates"
+        "itemName": "Delivery : Crates"
+    },
+    {
+        "itemId": "QUESTITEM_HEAVY_CRATE",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_HEAVY_BARREL",
-        "itemName": "Barrels"
+        "itemName": "Delivery : Barrels"
+    },
+    {
+        "itemId": "QUESTITEM_HEAVY_BARREL",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_LIGHT_FUR",
-        "itemName": "Heavy Fur"
+        "itemName": "Delivery : Heavy Fur"
+    },
+    {
+        "itemId": "QUESTITEM_LIGHT_FUR",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_LIGHT_THEPACKAGE",
-        "itemName": "\"The Package\""
+        "itemName": "Delivery : \"The Package\""
+    },
+    {
+        "itemId": "QUESTITEM_LIGHT_THEPACKAGE",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_LIGHT_PATROLROUTE",
-        "itemName": "Patrol Route"
+        "itemName": "Delivery : Patrol Route"
+    },
+    {
+        "itemId": "QUESTITEM_LIGHT_PATROLROUTE",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_HEAVY_MOONSHINE",
-        "itemName": "Geoff the Brigand's All-Natural Enriched Moonshine"
+        "itemName": "Delivery : Geoff the Brigand's All-Natural Enriched Moonshine"
+    },
+    {
+        "itemId": "QUESTITEM_HEAVY_MOONSHINE",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_LIGHT_KITTENS",
-        "itemName": "Sack of Kittens"
+        "itemName": "Delivery : Sack of Kittens"
+    },
+    {
+        "itemId": "QUESTITEM_LIGHT_KITTENS",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_LIGHT_BEES",
-        "itemName": "Beehives"
+        "itemName": "Delivery : Beehives"
+    },
+    {
+        "itemId": "QUESTITEM_LIGHT_BEES",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_LIGHT_OLDCLOTHES",
-        "itemName": "Old Clothes"
+        "itemName": "Delivery : Old Clothes"
+    },
+    {
+        "itemId": "QUESTITEM_LIGHT_OLDCLOTHES",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_HEAVY_FARMTOOLS",
-        "itemName": "Farmyard Tools"
+        "itemName": "Delivery : Farmyard Tools"
+    },
+    {
+        "itemId": "QUESTITEM_HEAVY_FARMTOOLS",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_HEAVY_MANURE",
-        "itemName": "Pile of Manure"
+        "itemName": "Delivery : Pile of Manure"
+    },
+    {
+        "itemId": "QUESTITEM_HEAVY_MANURE",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_LIGHT_ASSASSINATION",
-        "itemName": "Assassination Order"
+        "itemName": "Delivery : Assassination Order"
+    },
+    {
+        "itemId": "QUESTITEM_LIGHT_ASSASSINATION",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_LIGHT_CASUALTIES",
-        "itemName": "Casualty Report"
+        "itemName": "Delivery : Casualty Report"
+    },
+    {
+        "itemId": "QUESTITEM_LIGHT_CASUALTIES",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_LIGHT_RINGS",
-        "itemName": "Regimental Rings"
+        "itemName": "Delivery : Regimental Rings"
+    },
+    {
+        "itemId": "QUESTITEM_LIGHT_RINGS",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_HEAVY_MEDICAL",
-        "itemName": "Medical Supplies"
+        "itemName": "Delivery : Medical Supplies"
+    },
+    {
+        "itemId": "QUESTITEM_HEAVY_MEDICAL",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_HEAVY_FIREBARREL",
-        "itemName": "Sensitive Barrels"
+        "itemName": "Delivery : Sensitive Barrels"
+    },
+    {
+        "itemId": "QUESTITEM_HEAVY_FIREBARREL",
+        "itemName": "Delivery"
     },
     {
         "itemId": "QUESTITEM_TOKEN_ARENA_UNRANKED",
@@ -857,6 +954,10 @@ const itemlist = [
     {
         "itemId": "QUESTITEM_TOKEN_AVALON",
         "itemName": "Avalonian Energy"
+    },
+    {
+        "itemId": "QUESTITEM_TOKEN_MISTS",
+        "itemName": "Faerie Fire"
     },
     {
         "itemId": "QUESTITEM_TOKEN_ROYAL_HORSE",
@@ -8003,6 +8104,206 @@ const itemlist = [
         "itemName": "Elder's Caerleon Cape.4"
     },
     {
+        "itemId": "T4_CAPEITEM_FW_BRECILIEN",
+        "itemName": "Adept's Brecilien Cape"
+    },
+    {
+        "itemId": "T4_CAPEITEM_FW_BRECILIEN@1",
+        "itemName": "Adept's Brecilien Cape.1"
+    },
+    {
+        "itemId": "T4_CAPEITEM_FW_BRECILIEN@2",
+        "itemName": "Adept's Brecilien Cape.2"
+    },
+    {
+        "itemId": "T4_CAPEITEM_FW_BRECILIEN@3",
+        "itemName": "Adept's Brecilien Cape.3"
+    },
+    {
+        "itemId": "T4_CAPEITEM_FW_BRECILIEN@4",
+        "itemName": "Adept's Brecilien Cape.4"
+    },
+    {
+        "itemId": "T5_CAPEITEM_FW_BRECILIEN",
+        "itemName": "Expert's Brecilien Cape"
+    },
+    {
+        "itemId": "T5_CAPEITEM_FW_BRECILIEN@1",
+        "itemName": "Expert's Brecilien Cape.1"
+    },
+    {
+        "itemId": "T5_CAPEITEM_FW_BRECILIEN@2",
+        "itemName": "Expert's Brecilien Cape.2"
+    },
+    {
+        "itemId": "T5_CAPEITEM_FW_BRECILIEN@3",
+        "itemName": "Expert's Brecilien Cape.3"
+    },
+    {
+        "itemId": "T5_CAPEITEM_FW_BRECILIEN@4",
+        "itemName": "Expert's Brecilien Cape.4"
+    },
+    {
+        "itemId": "T6_CAPEITEM_FW_BRECILIEN",
+        "itemName": "Master's Brecilien Cape"
+    },
+    {
+        "itemId": "T6_CAPEITEM_FW_BRECILIEN@1",
+        "itemName": "Master's Brecilien Cape.1"
+    },
+    {
+        "itemId": "T6_CAPEITEM_FW_BRECILIEN@2",
+        "itemName": "Master's Brecilien Cape.2"
+    },
+    {
+        "itemId": "T6_CAPEITEM_FW_BRECILIEN@3",
+        "itemName": "Master's Brecilien Cape.3"
+    },
+    {
+        "itemId": "T6_CAPEITEM_FW_BRECILIEN@4",
+        "itemName": "Master's Brecilien Cape.4"
+    },
+    {
+        "itemId": "T7_CAPEITEM_FW_BRECILIEN",
+        "itemName": "Grandmaster's Brecilien Cape"
+    },
+    {
+        "itemId": "T7_CAPEITEM_FW_BRECILIEN@1",
+        "itemName": "Grandmaster's Brecilien Cape.1"
+    },
+    {
+        "itemId": "T7_CAPEITEM_FW_BRECILIEN@2",
+        "itemName": "Grandmaster's Brecilien Cape.2"
+    },
+    {
+        "itemId": "T7_CAPEITEM_FW_BRECILIEN@3",
+        "itemName": "Grandmaster's Brecilien Cape.3"
+    },
+    {
+        "itemId": "T7_CAPEITEM_FW_BRECILIEN@4",
+        "itemName": "Grandmaster's Brecilien Cape.4"
+    },
+    {
+        "itemId": "T8_CAPEITEM_FW_BRECILIEN",
+        "itemName": "Elder's Brecilien Cape"
+    },
+    {
+        "itemId": "T8_CAPEITEM_FW_BRECILIEN@1",
+        "itemName": "Elder's Brecilien Cape.1"
+    },
+    {
+        "itemId": "T8_CAPEITEM_FW_BRECILIEN@2",
+        "itemName": "Elder's Brecilien Cape.2"
+    },
+    {
+        "itemId": "T8_CAPEITEM_FW_BRECILIEN@3",
+        "itemName": "Elder's Brecilien Cape.3"
+    },
+    {
+        "itemId": "T8_CAPEITEM_FW_BRECILIEN@4",
+        "itemName": "Elder's Brecilien Cape.4"
+    },
+    {
+        "itemId": "T4_CAPEITEM_AVALON",
+        "itemName": "Adept's Avalonian Cape"
+    },
+    {
+        "itemId": "T4_CAPEITEM_AVALON@1",
+        "itemName": "Adept's Avalonian Cape.1"
+    },
+    {
+        "itemId": "T4_CAPEITEM_AVALON@2",
+        "itemName": "Adept's Avalonian Cape.2"
+    },
+    {
+        "itemId": "T4_CAPEITEM_AVALON@3",
+        "itemName": "Adept's Avalonian Cape.3"
+    },
+    {
+        "itemId": "T4_CAPEITEM_AVALON@4",
+        "itemName": "Adept's Avalonian Cape.4"
+    },
+    {
+        "itemId": "T5_CAPEITEM_AVALON",
+        "itemName": "Expert's Avalonian Cape"
+    },
+    {
+        "itemId": "T5_CAPEITEM_AVALON@1",
+        "itemName": "Expert's Avalonian Cape.1"
+    },
+    {
+        "itemId": "T5_CAPEITEM_AVALON@2",
+        "itemName": "Expert's Avalonian Cape.2"
+    },
+    {
+        "itemId": "T5_CAPEITEM_AVALON@3",
+        "itemName": "Expert's Avalonian Cape.3"
+    },
+    {
+        "itemId": "T5_CAPEITEM_AVALON@4",
+        "itemName": "Expert's Avalonian Cape.4"
+    },
+    {
+        "itemId": "T6_CAPEITEM_AVALON",
+        "itemName": "Master's Avalonian Cape"
+    },
+    {
+        "itemId": "T6_CAPEITEM_AVALON@1",
+        "itemName": "Master's Avalonian Cape.1"
+    },
+    {
+        "itemId": "T6_CAPEITEM_AVALON@2",
+        "itemName": "Master's Avalonian Cape.2"
+    },
+    {
+        "itemId": "T6_CAPEITEM_AVALON@3",
+        "itemName": "Master's Avalonian Cape.3"
+    },
+    {
+        "itemId": "T6_CAPEITEM_AVALON@4",
+        "itemName": "Master's Avalonian Cape.4"
+    },
+    {
+        "itemId": "T7_CAPEITEM_AVALON",
+        "itemName": "Grandmaster's Avalonian Cape"
+    },
+    {
+        "itemId": "T7_CAPEITEM_AVALON@1",
+        "itemName": "Grandmaster's Avalonian Cape.1"
+    },
+    {
+        "itemId": "T7_CAPEITEM_AVALON@2",
+        "itemName": "Grandmaster's Avalonian Cape.2"
+    },
+    {
+        "itemId": "T7_CAPEITEM_AVALON@3",
+        "itemName": "Grandmaster's Avalonian Cape.3"
+    },
+    {
+        "itemId": "T7_CAPEITEM_AVALON@4",
+        "itemName": "Grandmaster's Avalonian Cape.4"
+    },
+    {
+        "itemId": "T8_CAPEITEM_AVALON",
+        "itemName": "Elder's Avalonian Cape"
+    },
+    {
+        "itemId": "T8_CAPEITEM_AVALON@1",
+        "itemName": "Elder's Avalonian Cape.1"
+    },
+    {
+        "itemId": "T8_CAPEITEM_AVALON@2",
+        "itemName": "Elder's Avalonian Cape.2"
+    },
+    {
+        "itemId": "T8_CAPEITEM_AVALON@3",
+        "itemName": "Elder's Avalonian Cape.3"
+    },
+    {
+        "itemId": "T8_CAPEITEM_AVALON@4",
+        "itemName": "Elder's Avalonian Cape.4"
+    },
+    {
         "itemId": "T4_CAPEITEM_HERETIC",
         "itemName": "Adept's Heretic Cape"
     },
@@ -9191,6 +9492,10 @@ const itemlist = [
         "itemName": "Saddled Greywolf"
     },
     {
+        "itemId": "T5_MOUNT_OWL_FW_BRECILIEN",
+        "itemName": "Saddled Mystic Owl"
+    },
+    {
         "itemId": "T8_MOUNT_MOABIRD_FW_BRIDGEWATCH_ELITE",
         "itemName": "Elite Terrorbird"
     },
@@ -9213,6 +9518,10 @@ const itemlist = [
     {
         "itemId": "T8_MOUNT_GREYWOLF_FW_CAERLEON_ELITE",
         "itemName": "Elite Greywolf"
+    },
+    {
+        "itemId": "T8_MOUNT_OWL_FW_BRECILIEN_ELITE",
+        "itemName": "Elite Mystic Owl"
     },
     {
         "itemId": "T8_MOUNT_MAMMOTH_BATTLE@1",
@@ -10084,15 +10393,27 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_FURNITUREITEM_ADC_ICESCULPTURE_A",
-        "itemName": "Bonecrusher Berserker"
+        "itemName": "Ice Sculpture : Bonecrusher Berserker"
+    },
+    {
+        "itemId": "UNIQUE_FURNITUREITEM_ADC_ICESCULPTURE_A",
+        "itemName": "Ice Sculpture"
     },
     {
         "itemId": "UNIQUE_FURNITUREITEM_ADC_ICESCULPTURE_B",
-        "itemName": "Cursed Archer"
+        "itemName": "Ice Sculpture : Cursed Archer"
+    },
+    {
+        "itemId": "UNIQUE_FURNITUREITEM_ADC_ICESCULPTURE_B",
+        "itemName": "Ice Sculpture"
     },
     {
         "itemId": "UNIQUE_FURNITUREITEM_ADC_ICESCULPTURE_C",
-        "itemName": "Obsessed Cultist"
+        "itemName": "Ice Sculpture : Obsessed Cultist"
+    },
+    {
+        "itemId": "UNIQUE_FURNITUREITEM_ADC_ICESCULPTURE_C",
+        "itemName": "Ice Sculpture"
     },
     {
         "itemId": "UNIQUE_FURNITUREITEM_ADC_FROST_IGLOO",
@@ -10256,23 +10577,43 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_FOUNDER_ASIA_CRYSTAL",
-        "itemName": "Sea Captain's Spyglass"
+        "itemName": "Wardrobe Skin : Sea Captain's Spyglass"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_FOUNDER_ASIA_CRYSTAL",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_FOUNDER_ASIA_CRYSTAL",
-        "itemName": "Sea Captain's Hat"
+        "itemName": "Wardrobe Skin : Sea Captain's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_FOUNDER_ASIA_CRYSTAL",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_FOUNDER_ASIA_CRYSTAL",
-        "itemName": "Sea Captain's Coat"
+        "itemName": "Wardrobe Skin : Sea Captain's Coat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_FOUNDER_ASIA_CRYSTAL",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_FOUNDER_ASIA_CRYSTAL",
-        "itemName": "Sea Captain's Boots"
+        "itemName": "Wardrobe Skin : Sea Captain's Boots"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_FOUNDER_ASIA_CRYSTAL",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_FOUNDER_ASIA_CRYSTAL",
-        "itemName": "Sea Captain's Horse"
+        "itemName": "Riding Horse Skin : Sea Captain's Horse"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_FOUNDER_ASIA_CRYSTAL",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "UNIQUE_FURNITUREITEM_ASIA_FOUNDER_CERTIFICATE_CRYSTAL",
@@ -10304,23 +10645,43 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_FOUNDER_ASIA_GOLD",
-        "itemName": "Seafarer's Harpoon"
+        "itemName": "Wardrobe Skin : Seafarer's Harpoon"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_FOUNDER_ASIA_GOLD",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_FOUNDER_ASIA_GOLD",
-        "itemName": "Seafarer's Bandana"
+        "itemName": "Wardrobe Skin : Seafarer's Bandana"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_FOUNDER_ASIA_GOLD",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_FOUNDER_ASIA_GOLD",
-        "itemName": "Seafarer's Coat"
+        "itemName": "Wardrobe Skin : Seafarer's Coat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_FOUNDER_ASIA_GOLD",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_FOUNDER_ASIA_GOLD",
-        "itemName": "Seafarer's Boots"
+        "itemName": "Wardrobe Skin : Seafarer's Boots"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_FOUNDER_ASIA_GOLD",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_FOUNDER_ASIA_GOLD",
-        "itemName": "Seafarer's Horse"
+        "itemName": "Riding Horse Skin : Seafarer's Horse"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_FOUNDER_ASIA_GOLD",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "UNIQUE_FURNITUREITEM_ASIA_FOUNDER_CERTIFICATE_GOLD",
@@ -10332,7 +10693,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_FOUNDER_ASIA_SILVER",
-        "itemName": "Sailor's Horse skin"
+        "itemName": "Riding Horse Skin : Sailor's Horse"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_FOUNDER_ASIA_SILVER",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "UNIQUE_FURNITUREITEM_ASIA_FOUNDER_CERTIFICATE_SILVER",
@@ -33531,6 +33896,46 @@ const itemlist = [
         "itemName": "Elder's Caerleon Crest"
     },
     {
+        "itemId": "T4_CAPEITEM_FW_BRECILIEN_BP",
+        "itemName": "Adept's Brecilien Crest"
+    },
+    {
+        "itemId": "T5_CAPEITEM_FW_BRECILIEN_BP",
+        "itemName": "Expert's Brecilien Crest"
+    },
+    {
+        "itemId": "T6_CAPEITEM_FW_BRECILIEN_BP",
+        "itemName": "Master's Brecilien Crest"
+    },
+    {
+        "itemId": "T7_CAPEITEM_FW_BRECILIEN_BP",
+        "itemName": "Grandmaster's Brecilien Crest"
+    },
+    {
+        "itemId": "T8_CAPEITEM_FW_BRECILIEN_BP",
+        "itemName": "Elder's Brecilien Crest"
+    },
+    {
+        "itemId": "T4_CAPEITEM_AVALON_BP",
+        "itemName": "Adept's Avalonian Crest"
+    },
+    {
+        "itemId": "T5_CAPEITEM_AVALON_BP",
+        "itemName": "Expert's Avalonian Crest"
+    },
+    {
+        "itemId": "T6_CAPEITEM_AVALON_BP",
+        "itemName": "Master's Avalonian Crest"
+    },
+    {
+        "itemId": "T7_CAPEITEM_AVALON_BP",
+        "itemName": "Grandmaster's Avalonian Crest"
+    },
+    {
+        "itemId": "T8_CAPEITEM_AVALON_BP",
+        "itemName": "Elder's Avalonian Crest"
+    },
+    {
         "itemId": "T4_CAPEITEM_HERETIC_BP",
         "itemName": "Adept's Heretic Crest"
     },
@@ -34068,95 +34473,187 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_NOV2018",
-        "itemName": "Grim Challenge"
+        "itemName": "Avatar Ring : Grim Challenge"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_NOV2018",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_DEC2018",
-        "itemName": "Yuletide Challenge"
+        "itemName": "Avatar Ring : Yuletide Challenge"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_DEC2018",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_JAN2019",
-        "itemName": "Frost Challenge"
+        "itemName": "Avatar Ring : Frost Challenge"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_JAN2019",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_FEB2019",
-        "itemName": "Carnival Challenge"
+        "itemName": "Avatar Ring : Carnival Challenge"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_FEB2019",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_MAR2019",
-        "itemName": "Keeper Challenge"
+        "itemName": "Avatar Ring : Keeper Challenge"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_MAR2019",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_APR2019",
-        "itemName": "Hunter Challenge"
+        "itemName": "Avatar Ring : Hunter Challenge"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_APR2019",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_MAY2019",
-        "itemName": "Morgana Challenge"
+        "itemName": "Avatar Ring : Morgana Challenge"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_MAY2019",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_JUN2019",
-        "itemName": "Knight Challenge"
+        "itemName": "Avatar Ring : Knight Challenge"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_JUN2019",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_JUL2019",
-        "itemName": "Undead Challenge"
+        "itemName": "Avatar Ring : Undead Challenge"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_JUL2019",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_AUG2019",
-        "itemName": "Divine Challenge"
+        "itemName": "Avatar Ring : Divine Challenge"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_AUG2019",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_SEP2019",
-        "itemName": "Heretic Challenge"
+        "itemName": "Avatar Ring : Heretic Challenge"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_SEP2019",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_OCT2019",
-        "itemName": "Harvest Challenge"
+        "itemName": "Avatar Ring : Harvest Challenge"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_OCT2019",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_CHARITY_MARCH2020",
-        "itemName": "Staff of Hermes"
+        "itemName": "Avatar Ring : Staff of Hermes"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_CHARITY_MARCH2020",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_01",
-        "itemName": "Adventurer"
+        "itemName": "Avatar Ring : Adventurer"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_01",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_NATURE",
-        "itemName": "Nature Spirit"
+        "itemName": "Avatar Ring : Nature Spirit"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_NATURE",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_FIRE",
-        "itemName": "Inferno"
+        "itemName": "Avatar Ring : Inferno"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_FIRE",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_ARCANE",
-        "itemName": "Enigma"
+        "itemName": "Avatar Ring : Enigma"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_ARCANE",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_SWORDS",
-        "itemName": "Crossed Blades"
+        "itemName": "Avatar Ring : Crossed Blades"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_SWORDS",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_FARMING",
-        "itemName": "Farmer"
+        "itemName": "Avatar Ring : Farmer"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_FARMING",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_AXES",
-        "itemName": "Crossed Axes"
+        "itemName": "Avatar Ring : Crossed Axes"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_AXES",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_FISHING",
-        "itemName": "Fisherman"
+        "itemName": "Avatar Ring : Fisherman"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_FISHING",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_NECROMANCER",
-        "itemName": "Necromancer"
+        "itemName": "Avatar Ring : Necromancer"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ADC_TOKENLOCKED_NECROMANCER",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATAR_ADC_TOKENLOCKED_01",
-        "itemName": "Adventurer"
+        "itemName": "Avatar : Adventurer"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_ADC_TOKENLOCKED_01",
+        "itemName": "Avatar"
     },
     {
         "itemId": "T8_GVGSEASONREWARD_FAMEBUFF",
@@ -34180,99 +34677,195 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_SWAMP_01",
-        "itemName": "Iron Campaign Chest Thetford"
+        "itemName": "Iron Campaign Chest : Thetford"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_SWAMP_01",
+        "itemName": "Iron Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_SWAMP_02",
-        "itemName": "Bronze Campaign Chest Thetford"
+        "itemName": "Bronze Campaign Chest : Thetford"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_SWAMP_02",
+        "itemName": "Bronze Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_SWAMP_03",
-        "itemName": "Silver Campaign Chest Thetford"
+        "itemName": "Silver Campaign Chest : Thetford"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_SWAMP_03",
+        "itemName": "Silver Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_SWAMP_04",
-        "itemName": "Gold Campaign Chest Thetford"
+        "itemName": "Gold Campaign Chest : Thetford"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_SWAMP_04",
+        "itemName": "Gold Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_MOUNTAIN_01",
-        "itemName": "Iron Campaign Chest Fort Sterling"
+        "itemName": "Iron Campaign Chest : Fort Sterling"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_MOUNTAIN_01",
+        "itemName": "Iron Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_MOUNTAIN_02",
-        "itemName": "Bronze Campaign Chest Fort Sterling"
+        "itemName": "Bronze Campaign Chest : Fort Sterling"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_MOUNTAIN_02",
+        "itemName": "Bronze Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_MOUNTAIN_03",
-        "itemName": "Silver Campaign Chest Fort Sterling"
+        "itemName": "Silver Campaign Chest : Fort Sterling"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_MOUNTAIN_03",
+        "itemName": "Silver Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_MOUNTAIN_04",
-        "itemName": "Gold Campaign Chest Fort Sterling"
+        "itemName": "Gold Campaign Chest : Fort Sterling"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_MOUNTAIN_04",
+        "itemName": "Gold Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_FOREST_01",
-        "itemName": "Iron Campaign Chest Lymhurst"
+        "itemName": "Iron Campaign Chest : Lymhurst"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_FOREST_01",
+        "itemName": "Iron Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_FOREST_02",
-        "itemName": "Bronze Campaign Chest Lymhurst"
+        "itemName": "Bronze Campaign Chest : Lymhurst"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_FOREST_02",
+        "itemName": "Bronze Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_FOREST_03",
-        "itemName": "Silver Campaign Chest Lymhurst"
+        "itemName": "Silver Campaign Chest : Lymhurst"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_FOREST_03",
+        "itemName": "Silver Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_FOREST_04",
-        "itemName": "Gold Campaign Chest Lymhurst"
+        "itemName": "Gold Campaign Chest : Lymhurst"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_FOREST_04",
+        "itemName": "Gold Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_STEPPE_01",
-        "itemName": "Iron Campaign Chest Bridgewatch"
+        "itemName": "Iron Campaign Chest : Bridgewatch"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_STEPPE_01",
+        "itemName": "Iron Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_STEPPE_02",
-        "itemName": "Bronze Campaign Chest Bridgewatch"
+        "itemName": "Bronze Campaign Chest : Bridgewatch"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_STEPPE_02",
+        "itemName": "Bronze Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_STEPPE_03",
-        "itemName": "Silver Campaign Chest Bridgewatch"
+        "itemName": "Silver Campaign Chest : Bridgewatch"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_STEPPE_03",
+        "itemName": "Silver Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_STEPPE_04",
-        "itemName": "Gold Campaign Chest Bridgewatch"
+        "itemName": "Gold Campaign Chest : Bridgewatch"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_STEPPE_04",
+        "itemName": "Gold Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_HIGHLAND_01",
-        "itemName": "Iron Campaign Chest Martlock"
+        "itemName": "Iron Campaign Chest : Martlock"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_HIGHLAND_01",
+        "itemName": "Iron Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_HIGHLAND_02",
-        "itemName": "Bronze Campaign Chest Martlock"
+        "itemName": "Bronze Campaign Chest : Martlock"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_HIGHLAND_02",
+        "itemName": "Bronze Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_HIGHLAND_03",
-        "itemName": "Silver Campaign Chest Martlock"
+        "itemName": "Silver Campaign Chest : Martlock"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_HIGHLAND_03",
+        "itemName": "Silver Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_HIGHLAND_04",
-        "itemName": "Gold Campaign Chest Martlock"
+        "itemName": "Gold Campaign Chest : Martlock"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_HIGHLAND_04",
+        "itemName": "Gold Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_CAERLEON_01",
-        "itemName": "Iron Campaign Chest Caerleon"
+        "itemName": "Iron Campaign Chest : Caerleon"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_CAERLEON_01",
+        "itemName": "Iron Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_CAERLEON_02",
-        "itemName": "Bronze Campaign Chest Caerleon"
+        "itemName": "Bronze Campaign Chest : Caerleon"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_CAERLEON_02",
+        "itemName": "Bronze Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_CAERLEON_03",
-        "itemName": "Silver Campaign Chest Caerleon"
+        "itemName": "Silver Campaign Chest : Caerleon"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_CAERLEON_03",
+        "itemName": "Silver Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_CAERLEON_04",
-        "itemName": "Gold Campaign Chest Caerleon"
+        "itemName": "Gold Campaign Chest : Caerleon"
+    },
+    {
+        "itemId": "UNIQUE_LOOTCHEST_FACTIONCAMPAIGN_REWARD_CAERLEON_04",
+        "itemName": "Gold Campaign Chest"
     },
     {
         "itemId": "UNIQUE_LOOTCHEST_CONQUEROR_WEEKLY_REWARD",
@@ -34432,215 +35025,443 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_1ST",
-        "itemName": "Avatar Ring Season 1st Place"
+        "itemName": "Avatar Ring : Season 1st Place"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_1ST",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_2ND",
-        "itemName": "Avatar Ring Season 2nd Place"
+        "itemName": "Avatar Ring : Season 2nd Place"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_2ND",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_3RD",
-        "itemName": "Avatar Ring Season 3rd Place"
+        "itemName": "Avatar Ring : Season 3rd Place"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_3RD",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_CRYSTAL",
-        "itemName": "Avatar Ring Set Season Crystal Rank"
+        "itemName": "Avatar Ring Set : Season Crystal Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_CRYSTAL",
+        "itemName": "Avatar Ring Set"
     },
     {
         "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_GOLD",
-        "itemName": "Avatar Ring Set Season Gold Rank"
+        "itemName": "Avatar Ring Set : Season Gold Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_GOLD",
+        "itemName": "Avatar Ring Set"
     },
     {
         "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_SILVER",
-        "itemName": "Avatar Ring Set Season Silver Rank"
+        "itemName": "Avatar Ring Set : Season Silver Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_SILVER",
+        "itemName": "Avatar Ring Set"
     },
     {
         "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_BRONZE",
-        "itemName": "Avatar Ring Set Season Bronze Rank"
+        "itemName": "Avatar Ring Set : Season Bronze Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_BRONZE",
+        "itemName": "Avatar Ring Set"
     },
     {
         "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_IRON",
-        "itemName": "Avatar Ring Season Iron Rank"
+        "itemName": "Avatar Ring : Season Iron Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_IRON",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_AVALON_INVASION",
-        "itemName": "Avatar Ring Avalonian Invasion"
+        "itemName": "Avatar Ring : Avalonian Invasion"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_GVGSEASONREWARD_AVALON_INVASION",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ARENA_CRYSTAL",
-        "itemName": "Avatar Ring Crystal Arena Crystal Rank"
+        "itemName": "Avatar Ring : Crystal Arena Crystal Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ARENA_CRYSTAL",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ARENA_GOLD1",
-        "itemName": "Avatar Ring Crystal Arena Gold Rank"
+        "itemName": "Avatar Ring : Crystal Arena Gold Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ARENA_GOLD1",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ARENA_SILVER1",
-        "itemName": "Avatar Ring Crystal Arena Silver Rank"
+        "itemName": "Avatar Ring : Crystal Arena Silver Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ARENA_SILVER1",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_TELLAFRIEND",
-        "itemName": "Avatar Ring Recruiter"
+        "itemName": "Avatar Ring : Recruiter"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_TELLAFRIEND",
+        "itemName": "Avatar Ring"
     },
     {
         "itemId": "UNIQUE_AVATARRING_ORIGINAL_PLAYER",
-        "itemName": "Avatar Ring Seasoned Adventurer"
+        "itemName": "Avatar Ring : Seasoned Adventurer"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_ORIGINAL_PLAYER",
+        "itemName": "Avatar Ring"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_BRECILIEN",
+        "itemName": "Avatar Ring : Wanderer in the Mists"
+    },
+    {
+        "itemId": "UNIQUE_AVATARRING_BRECILIEN",
+        "itemName": "Avatar Ring"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_BRECILIEN",
+        "itemName": "Avatar : Wanderer in the Mists"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_BRECILIEN",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_04",
-        "itemName": "Avatar Guild Season 4"
+        "itemName": "Avatar : Guild Season 4"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_04",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_05",
-        "itemName": "Avatar Guild Season 5"
+        "itemName": "Avatar : Guild Season 5"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_05",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_06",
-        "itemName": "Avatar Guild Season 6"
+        "itemName": "Avatar : Guild Season 6"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_06",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_07",
-        "itemName": "Avatar Guild Season 7"
+        "itemName": "Avatar : Guild Season 7"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_07",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_AVALON_INVASION",
-        "itemName": "Avatar Avalonian Invasion"
+        "itemName": "Avatar : Avalonian Invasion"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_AVALON_INVASION",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_08",
-        "itemName": "Avatar Guild Season 8"
+        "itemName": "Avatar : Guild Season 8"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_08",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_09",
-        "itemName": "Avatar Guild Season 9"
+        "itemName": "Avatar : Guild Season 9"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_09",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_10",
-        "itemName": "Avatar Guild Season 10"
+        "itemName": "Avatar : Guild Season 10"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_10",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_11",
-        "itemName": "Avatar Guild Season 11"
+        "itemName": "Avatar : Guild Season 11"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_11",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_12",
-        "itemName": "Avatar Guild Season 12"
+        "itemName": "Avatar : Guild Season 12"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_12",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_13",
-        "itemName": "Avatar Guild Season 13"
+        "itemName": "Avatar : Guild Season 13"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_13",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_CRYSTAL",
-        "itemName": "Avatar Set Energy Surge Crystal Rank"
+        "itemName": "Avatar Set : Energy Surge Crystal Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_CRYSTAL",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_GOLD",
-        "itemName": "Avatar Set Energy Surge Gold Rank"
+        "itemName": "Avatar Set : Energy Surge Gold Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_GOLD",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_SILVER",
-        "itemName": "Avatar Set Energy Surge Silver Rank"
+        "itemName": "Avatar Set : Energy Surge Silver Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_SILVER",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_BRONZE",
-        "itemName": "Avatar Energy Surge Bronze Rank"
+        "itemName": "Avatar : Energy Surge Bronze Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_ENERGY_RUSH_BRONZE",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_14_CRYSTAL",
-        "itemName": "Avatar Set Season 14 Crystal Rank"
+        "itemName": "Avatar Set : Season 14 Crystal Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_14_CRYSTAL",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_14_GOLD",
-        "itemName": "Avatar Set Season 14 Gold Rank"
+        "itemName": "Avatar Set : Season 14 Gold Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_14_GOLD",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_14_SILVER",
-        "itemName": "Avatar Set Season 14 Silver Rank"
+        "itemName": "Avatar Set : Season 14 Silver Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_14_SILVER",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_14_BRONZE",
-        "itemName": "Avatar Season 14 Bronze Rank"
+        "itemName": "Avatar : Season 14 Bronze Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_14_BRONZE",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_15_CRYSTAL",
-        "itemName": "Avatar Set Season 15 Crystal Rank"
+        "itemName": "Avatar Set : Season 15 Crystal Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_15_CRYSTAL",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_15_GOLD",
-        "itemName": "Avatar Set Season 15 Gold Rank"
+        "itemName": "Avatar Set : Season 15 Gold Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_15_GOLD",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_15_SILVER",
-        "itemName": "Avatar Set Season 15 Silver Rank"
+        "itemName": "Avatar Set : Season 15 Silver Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_15_SILVER",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_15_BRONZE",
-        "itemName": "Avatar Season 15 Bronze Rank"
+        "itemName": "Avatar : Season 15 Bronze Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_15_BRONZE",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_16_CRYSTAL",
-        "itemName": "Avatar Set Season 16 Crystal Rank"
+        "itemName": "Avatar Set : Season 16 Crystal Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_16_CRYSTAL",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_16_GOLD",
-        "itemName": "Avatar Set Season 16 Gold Rank"
+        "itemName": "Avatar Set : Season 16 Gold Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_16_GOLD",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_16_SILVER",
-        "itemName": "Avatar Set Season 16 Silver Rank"
+        "itemName": "Avatar Set : Season 16 Silver Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_16_SILVER",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_16_BRONZE",
-        "itemName": "Avatar Season 16 Bronze Rank"
+        "itemName": "Avatar : Season 16 Bronze Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_16_BRONZE",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_17_CRYSTAL",
-        "itemName": "Avatar Set Season 17 Crystal Rank"
+        "itemName": "Avatar Set : Season 17 Crystal Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_17_CRYSTAL",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_17_GOLD",
-        "itemName": "Avatar Set Season 17 Gold Rank"
+        "itemName": "Avatar Set : Season 17 Gold Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_17_GOLD",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_17_SILVER",
-        "itemName": "Avatar Set Season 17 Silver Rank"
+        "itemName": "Avatar Set : Season 17 Silver Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_17_SILVER",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_17_BRONZE",
-        "itemName": "Avatar Season 17 Bronze Rank"
+        "itemName": "Avatar : Season 17 Bronze Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_17_BRONZE",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_18_CRYSTAL",
-        "itemName": "Avatar Set Season 18 Crystal Rank"
+        "itemName": "Avatar Set : Season 18 Crystal Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_18_CRYSTAL",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_18_GOLD",
-        "itemName": "Avatar Set Season 18 Gold Rank"
+        "itemName": "Avatar Set : Season 18 Gold Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_18_GOLD",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_18_SILVER",
-        "itemName": "Avatar Set Season 18 Silver Rank"
+        "itemName": "Avatar Set : Season 18 Silver Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_18_SILVER",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_18_BRONZE",
-        "itemName": "Avatar Season 18 Bronze Rank"
+        "itemName": "Avatar : Season 18 Bronze Rank"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_18_BRONZE",
+        "itemName": "Avatar"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_19_CRYSTAL",
-        "itemName": "Avatar Set Crystal Sword Dancer"
+        "itemName": "Avatar Set : Crystal Sword Dancer"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_19_CRYSTAL",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_19_GOLD",
-        "itemName": "Avatar Set Gold Sword Dancer"
+        "itemName": "Avatar Set : Gold Sword Dancer"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_19_GOLD",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_19_SILVER",
-        "itemName": "Avatar Set Silver Sword Dancer"
+        "itemName": "Avatar Set : Silver Sword Dancer"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_19_SILVER",
+        "itemName": "Avatar Set"
     },
     {
         "itemId": "UNIQUE_AVATAR_GVGSEASON_19_BRONZE",
-        "itemName": "Avatar Bronze Sword Dancer"
+        "itemName": "Avatar : Bronze Sword Dancer"
+    },
+    {
+        "itemId": "UNIQUE_AVATAR_GVGSEASON_19_BRONZE",
+        "itemName": "Avatar"
     },
     {
         "itemId": "T6_HELLGATE_2V2_LETHAL_1_MAP",
@@ -34884,7 +35705,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_FOUNDER_LEGENDARY",
-        "itemName": "Legendary Explorer"
+        "itemName": "Riding Horse Skin : Legendary Explorer"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_FOUNDER_LEGENDARY",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "SKIN_HORSE_STARTERPACK",
@@ -34892,7 +35717,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_STARTERPACK",
-        "itemName": "Legendary Adventurer"
+        "itemName": "Riding Horse Skin : Legendary Adventurer"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_STARTERPACK",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "SKIN_HORSE_TELLAFRIEND",
@@ -34900,7 +35729,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_TELLAFRIEND",
-        "itemName": "Recruiter"
+        "itemName": "Riding Horse Skin : Recruiter"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_TELLAFRIEND",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "SKIN_HORSE_PONY_TELLAFRIEND",
@@ -34908,7 +35741,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_PONY_TELLAFRIEND",
-        "itemName": "Recruiter's Pony skin"
+        "itemName": "Riding Horse Skin : Recruiter's Pony"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_PONY_TELLAFRIEND",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "SKIN_HORSE_UNDEAD",
@@ -34916,7 +35753,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_UNDEAD",
-        "itemName": "Bonehorse"
+        "itemName": "Riding Horse Skin : Bonehorse"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_UNDEAD",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "SKIN_HORSE_UNDEAD_HALLOWEEN",
@@ -34924,7 +35765,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_UNDEAD_HALLOWEEN",
-        "itemName": "Horse Macabre skin"
+        "itemName": "Riding Horse Skin : Horse Macabre"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_UNDEAD_HALLOWEEN",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "SKIN_HORSE_BROWN",
@@ -34944,7 +35789,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_GUILDBANNER",
-        "itemName": "Jousting Horse skiin"
+        "itemName": "Riding Horse Skin : Jousting Horse"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_GUILDBANNER",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "SKIN_HORSE_UNICORN_WHITE_TELLAFRIEND",
@@ -34952,7 +35801,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_WHITE_TELLAFRIEND",
-        "itemName": "Unicorn"
+        "itemName": "Riding Horse Skin : Unicorn"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_WHITE_TELLAFRIEND",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "SKIN_HORSE_JESTER_TELLAFRIEND",
@@ -34960,7 +35813,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_JESTER_TELLAFRIEND",
-        "itemName": "Jester Horse"
+        "itemName": "Riding Horse Skin : Jester Horse"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_JESTER_TELLAFRIEND",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "SKIN_HORSE_VAMPIRE_TELLAFRIEND",
@@ -34968,7 +35825,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_VAMPIRE_TELLAFRIEND",
-        "itemName": "Horsferatu"
+        "itemName": "Riding Horse Skin : Horsferatu"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_VAMPIRE_TELLAFRIEND",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "SKIN_HORSE_QUESTING_BEAST",
@@ -34976,7 +35837,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_QUESTING_BEAST",
-        "itemName": "Chimera"
+        "itemName": "Riding Horse Skin : Chimera"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_QUESTING_BEAST",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "SKIN_ARMORED_HORSE_ARENA",
@@ -34984,11 +35849,19 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_ARENA_COPY",
-        "itemName": "Arena Veteran copy"
+        "itemName": "Armored Horse Skin : Arena Veteran"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_ARENA_COPY",
+        "itemName": "Armored Horse Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_ARENA",
-        "itemName": "Arena Veteran"
+        "itemName": "Armored Horse Skin : Arena Veteran"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_ARENA",
+        "itemName": "Armored Horse Skin"
     },
     {
         "itemId": "SKIN_ARMORED_HORSE_MORGANA",
@@ -34996,7 +35869,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_MORGANA",
-        "itemName": "Morgana Mare unlock"
+        "itemName": "Armored Horse Skin : Morgana Mare"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_MORGANA",
+        "itemName": "Armored Horse Skin"
     },
     {
         "itemId": "SKIN_ARMORED_HORSE_UNDEAD",
@@ -35004,7 +35881,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_UNDEAD",
-        "itemName": "Armored Bonehorse undead"
+        "itemName": "Armored Horse Skin : Armored Bonehorse"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_UNDEAD",
+        "itemName": "Armored Horse Skin"
     },
     {
         "itemId": "SKIN_ARMORED_HORSE_T5_MOUNT_GUILD",
@@ -35032,15 +35913,23 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_OX_FOUNDER_LEGENDARY",
-        "itemName": "Legendary Explorer"
+        "itemName": "Transport Ox Skin : Legendary Explorer"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_OX_FOUNDER_LEGENDARY",
+        "itemName": "Transport Ox Skin"
     },
     {
         "itemId": "SKIN_OX_CART_STARTERPACK",
-        "itemName": "Legendary Adventurer's Cart unlock"
+        "itemName": "Legendary Adventurer's Cart"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_OX_CART_STARTERPACK",
-        "itemName": "Legendary Adventurer's Cart"
+        "itemName": "Transport Ox Skin : Legendary Adventurer's Cart"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_OX_CART_STARTERPACK",
+        "itemName": "Transport Ox Skin"
     },
     {
         "itemId": "SKIN_OX_YAK_TELLAFRIEND",
@@ -35048,7 +35937,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_OX_YAK_TELLAFRIEND",
-        "itemName": "Recruiter's Yak unlock"
+        "itemName": "Transport Ox Skin : Recruiter's Yak"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_OX_YAK_TELLAFRIEND",
+        "itemName": "Transport Ox Skin"
     },
     {
         "itemId": "SKIN_OX_TRANSPORT_RAM_TELLAFRIEND",
@@ -35056,7 +35949,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_OX_TRANSPORT_RAM_TELLAFRIEND",
-        "itemName": "Recruiter's Bighorn Ram unlock"
+        "itemName": "Transport Ox Skin : Recruiter's Bighorn Ram"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_OX_TRANSPORT_RAM_TELLAFRIEND",
+        "itemName": "Transport Ox Skin"
     },
     {
         "itemId": "SKIN_OX_BLACKMARKET",
@@ -35076,7 +35973,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_OX_CART_HERETIC",
-        "itemName": "Heretic Cart unlock"
+        "itemName": "Transport Ox Skin : Heretic Cart"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_OX_CART_HERETIC",
+        "itemName": "Transport Ox Skin"
     },
     {
         "itemId": "SKIN_OX_CART_LUXUS_TELLAFRIEND",
@@ -35084,7 +35985,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_OX_CART_LUXUS_TELLAFRIEND",
-        "itemName": "Luxury Cart unlock"
+        "itemName": "Transport Ox Skin : Luxury Cart"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_OX_CART_LUXUS_TELLAFRIEND",
+        "itemName": "Transport Ox Skin"
     },
     {
         "itemId": "SKIN_OX_FARMER_TELLAFRIEND",
@@ -35092,7 +35997,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_OX_FARMER_TELLAFRIEND",
-        "itemName": "Farmer's Ox unlock"
+        "itemName": "Transport Ox Skin : Farmer's Ox"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_OX_FARMER_TELLAFRIEND",
+        "itemName": "Transport Ox Skin"
     },
     {
         "itemId": "SKIN_OX_XMAS_YAK_TELLAFRIEND",
@@ -35100,31 +36009,47 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_OX_XMAS_YAK_TELLAFRIEND",
-        "itemName": "Yuletide Yak unlock"
+        "itemName": "Transport Ox Skin : Yuletide Yak"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_OX_XMAS_YAK_TELLAFRIEND",
+        "itemName": "Transport Ox Skin"
     },
     {
         "itemId": "SKIN_DIREWOLF_WHITE",
-        "itemName": "Ghostwolf unlock"
-    },
-    {
-        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_WHITE",
         "itemName": "Ghostwolf"
     },
     {
-        "itemId": "SKIN_DIREWOLF_SPECTER",
-        "itemName": "Specter Wolf unlock"
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_WHITE",
+        "itemName": "Direwolf Skin : Ghostwolf"
     },
     {
-        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_SPECTER",
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_WHITE",
+        "itemName": "Direwolf Skin"
+    },
+    {
+        "itemId": "SKIN_DIREWOLF_SPECTER",
         "itemName": "Specter Wolf"
     },
     {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_SPECTER",
+        "itemName": "Direwolf Skin : Specter Wolf"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_SPECTER",
+        "itemName": "Direwolf Skin"
+    },
+    {
         "itemId": "SKIN_DIREWOLF_GREY_TELLAFRIEND",
-        "itemName": "Recruiter's Grey Wolf unlock"
+        "itemName": "Recruiter's Grey Wolf"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_GREY_TELLAFRIEND",
-        "itemName": "Recruiter's Grey Wolf"
+        "itemName": "Direwolf Skin : Recruiter's Grey Wolf"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_GREY_TELLAFRIEND",
+        "itemName": "Direwolf Skin"
     },
     {
         "itemId": "SKIN_DIREWOLF_BLOODHOUND_TELLAFRIEND",
@@ -35132,7 +36057,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_BLOODHOUND_TELLAFRIEND",
-        "itemName": "Recruiter's Rottweiler unlock"
+        "itemName": "Direwolf Skin : Recruiter's Rottweiler"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_BLOODHOUND_TELLAFRIEND",
+        "itemName": "Direwolf Skin"
     },
     {
         "itemId": "SKIN_DIREWOLF_BERNARD_TELLAFRIEND",
@@ -35140,15 +36069,23 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_BERNARD_TELLAFRIEND",
-        "itemName": "Recruiter's Saint Bernard unlock"
+        "itemName": "Direwolf Skin : Recruiter's Saint Bernard"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_BERNARD_TELLAFRIEND",
+        "itemName": "Direwolf Skin"
     },
     {
         "itemId": "SKIN_DIREWOLF_HUSKYSLEIGH_TELLAFRIEND",
-        "itemName": "Recruiter's Husky Sled unlock"
+        "itemName": "Recruiter's Husky Sled"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_HUSKYSLEIGH_TELLAFRIEND",
-        "itemName": "Recruiter's Husky Sled"
+        "itemName": "Direwolf Skin : Recruiter's Husky Sled"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_HUSKYSLEIGH_TELLAFRIEND",
+        "itemName": "Direwolf Skin"
     },
     {
         "itemId": "SKIN_DIREWOLF_DIREFOX_TELLAFRIEND",
@@ -35156,7 +36093,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_DIREFOX_TELLAFRIEND",
-        "itemName": "Recruiter's Dire Fox umlock"
+        "itemName": "Direwolf Skin : Recruiter's Dire Fox"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_DIREFOX_TELLAFRIEND",
+        "itemName": "Direwolf Skin"
     },
     {
         "itemId": "SKIN_DIREWOLF_BOBTAIL",
@@ -35164,7 +36105,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_BOBTAIL",
-        "itemName": "Sheepdog unlock"
+        "itemName": "Direwolf Skin : Sheepdog"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_BOBTAIL",
+        "itemName": "Direwolf Skin"
     },
     {
         "itemId": "SKIN_DIREWOLF_HYENA_TELLAFRIEND",
@@ -35172,7 +36117,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_HYENA_TELLAFRIEND",
-        "itemName": "Ironjaw Hyena unlock"
+        "itemName": "Direwolf Skin : Ironjaw Hyena"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_HYENA_TELLAFRIEND",
+        "itemName": "Direwolf Skin"
     },
     {
         "itemId": "SKIN_DIREWOLF_SHEPHERD_TELLAFRIEND",
@@ -35180,7 +36129,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_SHEPHERD_TELLAFRIEND",
-        "itemName": "Shepherd unlock"
+        "itemName": "Direwolf Skin : Shepherd"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_SHEPHERD_TELLAFRIEND",
+        "itemName": "Direwolf Skin"
     },
     {
         "itemId": "SKIN_DIREWOLF_SNOWFOX_TELLAFRIEND",
@@ -35188,7 +36141,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_SNOWFOX_TELLAFRIEND",
-        "itemName": "Snow Fox unlock"
+        "itemName": "Direwolf Skin : Snow Fox"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_SNOWFOX_TELLAFRIEND",
+        "itemName": "Direwolf Skin"
     },
     {
         "itemId": "SKIN_DIREWOLF_GVGSEASON_1ST_01",
@@ -35196,7 +36153,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_GVGSEASON_1ST_01",
-        "itemName": "Guild Season Winner unlock"
+        "itemName": "Direwolf Skin Set : Guild Season Winner"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_GVGSEASON_1ST_01",
+        "itemName": "Direwolf Skin Set"
     },
     {
         "itemId": "SKIN_DIREWOLF_GVGSEASON_2ND_01",
@@ -35204,7 +36165,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_GVGSEASON_2ND_01",
-        "itemName": "Guild Season 2nd Place unlock"
+        "itemName": "Direwolf Skin Set : Guild Season 2nd Place"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_GVGSEASON_2ND_01",
+        "itemName": "Direwolf Skin Set"
     },
     {
         "itemId": "SKIN_DIREWOLF_GVGSEASON_3RD_01",
@@ -35212,7 +36177,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_GVGSEASON_3RD_01",
-        "itemName": "Guild Season 3rd Place unlock"
+        "itemName": "Direwolf Skin : Guild Season 3rd Place"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_GVGSEASON_3RD_01",
+        "itemName": "Direwolf Skin"
     },
     {
         "itemId": "SKIN_GIANTSTAG_WHITE",
@@ -35220,7 +36189,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_WHITE",
-        "itemName": "Master's Giant Stag unlock"
+        "itemName": "Stag Skin : Master's Giant Stag"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_WHITE",
+        "itemName": "Stag Skin"
     },
     {
         "itemId": "SKIN_GIANTSTAG_TELLAFRIEND",
@@ -35228,7 +36201,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_TELLAFRIEND",
-        "itemName": "Recruiter's Giant Stag unlock"
+        "itemName": "Stag Skin : Recruiter's Giant Stag"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_TELLAFRIEND",
+        "itemName": "Stag Skin"
     },
     {
         "itemId": "SKIN_GIANTSTAG_XMAS",
@@ -35236,7 +36213,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_XMAS",
-        "itemName": "Yule Stag unlock"
+        "itemName": "Stag Skin : Yule Stag"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_XMAS",
+        "itemName": "Stag Skin"
     },
     {
         "itemId": "SKIN_GIANTSTAG_IMPALA_TELLAFRIEND",
@@ -35244,7 +36225,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_IMPALA_TELLAFRIEND",
-        "itemName": "Recruiter's Impala unlock"
+        "itemName": "Stag Skin : Recruiter's Impala"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_IMPALA_TELLAFRIEND",
+        "itemName": "Stag Skin"
     },
     {
         "itemId": "SKIN_GIANTSTAG_DIVINE",
@@ -35252,15 +36237,27 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_DIVINE",
-        "itemName": "Divine Stag unlock"
+        "itemName": "Stag Skin : Divine Stag"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_DIVINE",
+        "itemName": "Stag Skin"
     },
     {
         "itemId": "SKIN_GIANTSTAG_ALPACA",
-        "itemName": "Alpaca"
+        "itemName": "Stag Skin : Alpaca"
+    },
+    {
+        "itemId": "SKIN_GIANTSTAG_ALPACA",
+        "itemName": "Stag Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ALPACA",
-        "itemName": "Alpaca unlock"
+        "itemName": "Stag Skin : Alpaca"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ALPACA",
+        "itemName": "Stag Skin"
     },
     {
         "itemId": "SKIN_GIANTSTAG_REINDEER_TELLAFRIEND",
@@ -35268,7 +36265,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_REINDEER_TELLAFRIEND",
-        "itemName": "Festive Reindeer unlock"
+        "itemName": "Stag Skin : Festive Reindeer"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_REINDEER_TELLAFRIEND",
+        "itemName": "Stag Skin"
     },
     {
         "itemId": "SKIN_GIANTSTAG_FAWN_TELLAFRIEND",
@@ -35276,7 +36277,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_FAWN_TELLAFRIEND",
-        "itemName": "Summer Fawn unlock"
+        "itemName": "Stag Skin : Summer Fawn"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_FAWN_TELLAFRIEND",
+        "itemName": "Stag Skin"
     },
     {
         "itemId": "SKIN_GIANTSTAG_ICE_MOOSE_TELLAFRIEND",
@@ -35284,7 +36289,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ICE_MOOSE_TELLAFRIEND",
-        "itemName": "Frost Moose unlock"
+        "itemName": "Stag Skin : Frost Moose"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ICE_MOOSE_TELLAFRIEND",
+        "itemName": "Stag Skin"
     },
     {
         "itemId": "SKIN_COUGAR_TIGER_WHITE_TELLAFRIEND",
@@ -35292,7 +36301,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_TIGER_WHITE_TELLAFRIEND",
-        "itemName": "Recruiter's White Tiger unlock"
+        "itemName": "Swiftclaw Skin : Recruiter's White Tiger"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_TIGER_WHITE_TELLAFRIEND",
+        "itemName": "Swiftclaw Skin"
     },
     {
         "itemId": "SKIN_COUGAR_TIGER_TELLAFRIEND",
@@ -35300,7 +36313,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_TIGER_TELLAFRIEND",
-        "itemName": "Recruiter's Tiger unlock"
+        "itemName": "Swiftclaw Skin : Recruiter's Tiger"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_TIGER_TELLAFRIEND",
+        "itemName": "Swiftclaw Skin"
     },
     {
         "itemId": "SKIN_COUGAR_LYNX_TELLAFRIEND",
@@ -35308,7 +36325,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_LYNX_TELLAFRIEND",
-        "itemName": "Lynx unlock"
+        "itemName": "Swiftclaw Skin : Lynx"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_LYNX_TELLAFRIEND",
+        "itemName": "Swiftclaw Skin"
     },
     {
         "itemId": "SKIN_COUGAR_ARENA",
@@ -35316,19 +36337,31 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_ARENA_COPY",
-        "itemName": "Arena Champion copy"
+        "itemName": "Swiftclaw Skin : Arena Champion"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_ARENA_COPY",
+        "itemName": "Swiftclaw Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_ARENA",
-        "itemName": "Arena Champion"
+        "itemName": "Swiftclaw Skin : Arena Champion"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_ARENA",
+        "itemName": "Swiftclaw Skin"
     },
     {
         "itemId": "SKIN_COUGAR_TOURNAMENT",
-        "itemName": "Sabertooth Rex unlock"
+        "itemName": "Sabertooth Rex"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_TOURNAMENT",
-        "itemName": "Sabertooth Rex"
+        "itemName": "Swiftclaw Skin : Sabertooth Rex"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_TOURNAMENT",
+        "itemName": "Swiftclaw Skin"
     },
     {
         "itemId": "SKIN_COUGAR_TOURNAMENT_02",
@@ -35336,7 +36369,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_TOURNAMENT_02",
-        "itemName": "Saber Tiger Rex unlock"
+        "itemName": "Swiftclaw Skin : Saber Tiger Rex"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_TOURNAMENT_02",
+        "itemName": "Swiftclaw Skin"
     },
     {
         "itemId": "SKIN_COUGAR_OCCULT",
@@ -35344,7 +36381,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_OCCULT",
-        "itemName": "Occult Cougar unlock"
+        "itemName": "Swiftclaw Skin : Occult Cougar"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_OCCULT",
+        "itemName": "Swiftclaw Skin"
     },
     {
         "itemId": "SKIN_COUGAR_ARMORED_GREY",
@@ -35352,7 +36393,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_ARMORED_GREY",
-        "itemName": "Steelplate Cougar unlock"
+        "itemName": "Swiftclaw Skin : Steelplate Cougar"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_ARMORED_GREY",
+        "itemName": "Swiftclaw Skin"
     },
     {
         "itemId": "SKIN_COUGAR_SNOWLEOPARD_TELLAFRIEND",
@@ -35360,7 +36405,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_SNOWLEOPARD_TELLAFRIEND",
-        "itemName": "Snow Leopard unlock"
+        "itemName": "Swiftclaw Skin : Snow Leopard"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_SNOWLEOPARD_TELLAFRIEND",
+        "itemName": "Swiftclaw Skin"
     },
     {
         "itemId": "SKIN_COUGAR_JAGUAR_TELLAFRIEND",
@@ -35368,7 +36417,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_JAGUAR_TELLAFRIEND",
-        "itemName": "Recruiter's Jaguar unlock"
+        "itemName": "Swiftclaw Skin : Recruiter's Jaguar"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_JAGUAR_TELLAFRIEND",
+        "itemName": "Swiftclaw Skin"
     },
     {
         "itemId": "SKIN_DIREBOAR_HOUSEPIG",
@@ -35376,7 +36429,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREBOAR_HOUSEPIG",
-        "itemName": "Domesticated Hog unlock"
+        "itemName": "Direboar Skin : Domesticated Hog"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREBOAR_HOUSEPIG",
+        "itemName": "Direboar Skin"
     },
     {
         "itemId": "SKIN_DIREBOAR_PIG_TELLAFRIEND",
@@ -35384,7 +36441,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREBOAR_PIG_TELLAFRIEND",
-        "itemName": "Recruiter's Pig unlock"
+        "itemName": "Direboar Skin : Recruiter's Pig"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREBOAR_PIG_TELLAFRIEND",
+        "itemName": "Direboar Skin"
     },
     {
         "itemId": "SKIN_DIREBOAR_WHITE_TELLAFRIEND",
@@ -35392,7 +36453,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREBOAR_WHITE_TELLAFRIEND",
-        "itemName": "White Direboar unlock"
+        "itemName": "Direboar Skin : White Direboar"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREBOAR_WHITE_TELLAFRIEND",
+        "itemName": "Direboar Skin"
     },
     {
         "itemId": "SKIN_DIREBEAR_PANDA_TELLAFRIEND",
@@ -35400,7 +36465,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREBEAR_PANDA_TELLAFRIEND",
-        "itemName": "Panda unlock"
+        "itemName": "Direbear Skin : Panda"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREBEAR_PANDA_TELLAFRIEND",
+        "itemName": "Direbear Skin"
     },
     {
         "itemId": "SKIN_LIZARD_SAND_SALAMANDER_TELLAFRIEND",
@@ -35408,7 +36477,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_LIZARD_SAND_SALAMANDER_TELLAFRIEND",
-        "itemName": "Recruiter's Sand Salamander unlock"
+        "itemName": "Swamp Dragon Skin : Recruiter's Sand Salamander"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_LIZARD_SAND_SALAMANDER_TELLAFRIEND",
+        "itemName": "Swamp Dragon Skin"
     },
     {
         "itemId": "SKIN_DONKEY_HALLOWEEN",
@@ -35416,7 +36489,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DONKEY_HALLOWEEN",
-        "itemName": "Jack o' Donkey unlock"
+        "itemName": "Mule Skin : Jack o' Donkey"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DONKEY_HALLOWEEN",
+        "itemName": "Mule Skin"
     },
     {
         "itemId": "SKIN_DONKEY_UNIQUE_TELLAFRIEND",
@@ -35424,7 +36501,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DONKEY_UNIQUE_TELLAFRIEND",
-        "itemName": "Recruiter's Donkey unlock"
+        "itemName": "Mule Skin : Recruiter's Donkey"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DONKEY_UNIQUE_TELLAFRIEND",
+        "itemName": "Mule Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_NO_HELMET",
@@ -35448,7 +36529,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_JESTER",
-        "itemName": "Jester Mask unlock"
+        "itemName": "Wardrobe Skin : Jester Mask"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_JESTER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_JESTER",
@@ -35456,7 +36541,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_JESTER",
-        "itemName": "Jester Costume unlock"
+        "itemName": "Wardrobe Skin : Jester Costume"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_JESTER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_JESTER",
@@ -35464,7 +36553,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_JESTER",
-        "itemName": "Jester Shoes unlock"
+        "itemName": "Wardrobe Skin : Jester Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_JESTER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_DRESS_RED",
@@ -35472,7 +36565,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_DRESS_RED",
-        "itemName": "Red Tulip Hat unlock"
+        "itemName": "Wardrobe Skin : Red Tulip Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_DRESS_RED",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_DRESS_RED",
@@ -35480,7 +36577,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_DRESS_RED",
-        "itemName": "Red Tulip Dress unlock"
+        "itemName": "Wardrobe Skin : Red Tulip Dress"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_DRESS_RED",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_DRESS_RED",
@@ -35488,7 +36589,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_DRESS_RED",
-        "itemName": "Red Tulip Shoes unlock"
+        "itemName": "Wardrobe Skin : Red Tulip Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_DRESS_RED",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_DRESS_BLACK",
@@ -35520,7 +36625,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_RICH_NOBLE",
-        "itemName": "Rich Noble's Hat unlock"
+        "itemName": "Wardrobe Skin : Rich Noble's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_RICH_NOBLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_RICH_NOBLE",
@@ -35528,7 +36637,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_RICH_NOBLE",
-        "itemName": "Rich Noble's Doublet unlock"
+        "itemName": "Wardrobe Skin : Rich Noble's Doublet"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_RICH_NOBLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_RICH_NOBLE",
@@ -35536,7 +36649,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_RICH_NOBLE",
-        "itemName": "Rich Noble's Footwear unlock"
+        "itemName": "Wardrobe Skin : Rich Noble's Footwear"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_RICH_NOBLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_SANTACLAUS",
@@ -35544,7 +36661,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_SANTACLAUS",
-        "itemName": "Yule Hat unlock"
+        "itemName": "Wardrobe Skin : Yule Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_SANTACLAUS",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_SANTACLAUS",
@@ -35552,7 +36673,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_SANTACLAUS",
-        "itemName": "Yule Coat unlock"
+        "itemName": "Wardrobe Skin : Yule Coat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_SANTACLAUS",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_SANTACLAUS",
@@ -35560,7 +36685,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_SANTACLAUS",
-        "itemName": "Yule Shoes unlock"
+        "itemName": "Wardrobe Skin : Yule Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_SANTACLAUS",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_BACKPACK_VANITY_SANTACLAUS",
@@ -35568,7 +36697,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_BACKPACK_VANITY_SANTACLAUS",
-        "itemName": "Yule Backpack unlock"
+        "itemName": "Wardrobe Skin : Yule Backpack"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_BACKPACK_VANITY_SANTACLAUS",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_WEDDING_DRESS",
@@ -35576,7 +36709,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_WEDDING_DRESS",
-        "itemName": "Bridal Veil unlock"
+        "itemName": "Wardrobe Skin : Bridal Veil"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_WEDDING_DRESS",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_WEDDING_DRESS",
@@ -35584,7 +36721,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_WEDDING_DRESS",
-        "itemName": "Bridal Dress unlock"
+        "itemName": "Wardrobe Skin : Bridal Dress"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_WEDDING_DRESS",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_WEDDING_DRESS",
@@ -35592,7 +36733,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_WEDDING_DRESS",
-        "itemName": "Bridal Shoes unlock"
+        "itemName": "Wardrobe Skin : Bridal Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_WEDDING_DRESS",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_OFF_VANITY_WEDDING_DRESS",
@@ -35600,7 +36745,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_OFF_VANITY_WEDDING_DRESS",
-        "itemName": "Bridal Bouquet unlock"
+        "itemName": "Wardrobe Skin : Bridal Bouquet"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_OFF_VANITY_WEDDING_DRESS",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_WEDDING_TUXEDO",
@@ -35608,7 +36757,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_WEDDING_TUXEDO",
-        "itemName": "Groom's Hat unlock"
+        "itemName": "Wardrobe Skin : Groom's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_WEDDING_TUXEDO",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_WEDDING_TUXEDO",
@@ -35616,7 +36769,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_WEDDING_TUXEDO",
-        "itemName": "Groom's Suit unlock"
+        "itemName": "Wardrobe Skin : Groom's Suit"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_WEDDING_TUXEDO",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_WEDDING_TUXEDO",
@@ -35624,7 +36781,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_WEDDING_TUXEDO",
-        "itemName": "Groom's Shoes unlock"
+        "itemName": "Wardrobe Skin : Groom's Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_WEDDING_TUXEDO",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_VANITY_WEDDING_TUXEDO",
@@ -35632,7 +36793,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_WEDDING_TUXEDO",
-        "itemName": "Groom's Cape unlock"
+        "itemName": "Wardrobe Skin : Groom's Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_WEDDING_TUXEDO",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_OFF_VANITY_WEDDING_TUXEDO",
@@ -35640,7 +36805,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_OFF_VANITY_WEDDING_TUXEDO",
-        "itemName": "Wedding Ring unlock"
+        "itemName": "Wardrobe Skin : Wedding Ring"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_OFF_VANITY_WEDDING_TUXEDO",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_BARD",
@@ -35708,7 +36877,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_OFF_VANITY_CHARITY_MARCH2020",
-        "itemName": "Staff of Hermes unlock"
+        "itemName": "Wardrobe Skin : Staff of Hermes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_OFF_VANITY_CHARITY_MARCH2020",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_VANITY_2H_FW_BRIDGEWATCH_BANNER",
@@ -35740,11 +36913,19 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_ARENA_SET_01_COPY",
-        "itemName": "Arena Veteran's Circlet copy"
+        "itemName": "Wardrobe Skin : Arena Veteran's Circlet"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_ARENA_SET_01_COPY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_ARENA_SET_01",
-        "itemName": "Arena Veteran's Circlet unlock"
+        "itemName": "Wardrobe Skin : Arena Veteran's Circlet"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_ARENA_SET_01",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_ARENA_SET_01",
@@ -35752,11 +36933,19 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_ARENA_SET_01_COPY",
-        "itemName": "Arena Veteran's Cloak copy"
+        "itemName": "Wardrobe Skin : Arena Veteran's Cloak"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_ARENA_SET_01_COPY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_ARENA_SET_01",
-        "itemName": "Arena Veteran's Cloak unlock"
+        "itemName": "Wardrobe Skin : Arena Veteran's Cloak"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_ARENA_SET_01",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_ARENA_SET_01",
@@ -35764,11 +36953,19 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_ARENA_SET_01_COPY",
-        "itemName": "Arena Veteran's Boots copy"
+        "itemName": "Wardrobe Skin : Arena Veteran's Boots"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_ARENA_SET_01_COPY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_ARENA_SET_01",
-        "itemName": "Arena Veteran's Boots unlock"
+        "itemName": "Wardrobe Skin : Arena Veteran's Boots"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_ARENA_SET_01",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_VANITY_ARENA_SET_01",
@@ -35776,11 +36973,19 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_ARENA_SET_01_COPY",
-        "itemName": "Arena Veteran's Cape copy"
+        "itemName": "Wardrobe Skin : Arena Veteran's Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_ARENA_SET_01_COPY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_ARENA_SET_01",
-        "itemName": "Arena Veteran's Cape unlock"
+        "itemName": "Wardrobe Skin : Arena Veteran's Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_ARENA_SET_01",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_ARENA_EYEPATCH",
@@ -35788,11 +36993,19 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_ARENA_EYEPATCH_COPY",
-        "itemName": "Arena Veteran's Eyepatch copy"
+        "itemName": "Wardrobe Skin : Arena Veteran's Eyepatch"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_ARENA_EYEPATCH_COPY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_ARENA_EYEPATCH",
-        "itemName": "Arena Veteran's Eyepatch unlock"
+        "itemName": "Wardrobe Skin : Arena Veteran's Eyepatch"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_ARENA_EYEPATCH",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "T4_CAPE_ARENA_BANNER",
@@ -35800,11 +37013,19 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_T4_CAPE_ARENA_BANNER_COPY",
-        "itemName": "Small Arena Banner copy"
+        "itemName": "Wardrobe Skin : Small Arena Banner"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T4_CAPE_ARENA_BANNER_COPY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_T4_CAPE_ARENA_BANNER",
-        "itemName": "Small Arena Banner"
+        "itemName": "Wardrobe Skin : Small Arena Banner"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T4_CAPE_ARENA_BANNER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "T6_CAPE_ARENA_BANNER",
@@ -35812,11 +37033,19 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_T6_CAPE_ARENA_BANNER_COPY",
-        "itemName": "Medium Arena Banner copy"
+        "itemName": "Wardrobe Skin : Medium Arena Banner"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T6_CAPE_ARENA_BANNER_COPY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_T6_CAPE_ARENA_BANNER",
-        "itemName": "Medium Arena Banner"
+        "itemName": "Wardrobe Skin : Medium Arena Banner"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T6_CAPE_ARENA_BANNER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "T8_CAPE_ARENA_BANNER",
@@ -35824,15 +37053,27 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_T8_CAPE_ARENA_BANNER_COPY",
-        "itemName": "Large Arena Banner copy"
+        "itemName": "Wardrobe Skin : Large Arena Banner"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T8_CAPE_ARENA_BANNER_COPY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_T8_CAPE_ARENA_BANNER",
-        "itemName": "Large Arena Banner"
+        "itemName": "Wardrobe Skin : Large Arena Banner"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T8_CAPE_ARENA_BANNER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_GLADIATOR_ARENA",
-        "itemName": "Arena Gladiator Helm unlock"
+        "itemName": "Wardrobe Skin : Arena Gladiator Helm"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_GLADIATOR_ARENA",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_GLADIATOR_ARENA",
@@ -35840,7 +37081,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_GLADIATOR_ARENA",
-        "itemName": "Arena Gladiator Armor unlock"
+        "itemName": "Wardrobe Skin : Arena Gladiator Armor"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_GLADIATOR_ARENA",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_GLADIATOR_ARENA",
@@ -35848,7 +37093,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_GLADIATOR_ARENA",
-        "itemName": "Arena Gladiator Boots unlock"
+        "itemName": "Wardrobe Skin : Arena Gladiator Boots"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_GLADIATOR_ARENA",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_GLADIATOR_ARENA",
@@ -35856,7 +37105,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_GLADIATOR_ARENA",
-        "itemName": "Arena Gladiator Cape unlock"
+        "itemName": "Wardrobe Skin : Arena Gladiator Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_GLADIATOR_ARENA",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_VANITY_GLADIATOR_ARENA",
@@ -35864,7 +37117,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_GLADIATOR_CRYSTAL",
-        "itemName": "Crystal Gladiator Helm unlock"
+        "itemName": "Wardrobe Skin : Crystal Gladiator Helm"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_GLADIATOR_CRYSTAL",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_GLADIATOR_CRYSTAL",
@@ -35872,7 +37129,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_GLADIATOR_CRYSTAL",
-        "itemName": "Crystal Gladiator Armor unlock"
+        "itemName": "Wardrobe Skin : Crystal Gladiator Armor"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_GLADIATOR_CRYSTAL",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_GLADIATOR_CRYSTAL",
@@ -35880,7 +37141,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_GLADIATOR_CRYSTAL",
-        "itemName": "Crystal Gladiator Boots unlock"
+        "itemName": "Wardrobe Skin : Crystal Gladiator Boots"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_GLADIATOR_CRYSTAL",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_GLADIATOR_CRYSTAL",
@@ -35888,7 +37153,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_GLADIATOR_CRYSTAL",
-        "itemName": "Crystal Gladiator Cape unlock"
+        "itemName": "Wardrobe Skin : Crystal Gladiator Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_GLADIATOR_CRYSTAL",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_VANITY_GLADIATOR_CRYSTAL",
@@ -35900,7 +37169,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_TELLAFRIEND_BATRIDER",
-        "itemName": "Master of Bats Helmet unlock"
+        "itemName": "Wardrobe Skin : Master of Bats Helmet"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_TELLAFRIEND_BATRIDER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_EASTER_WHITE",
@@ -35908,7 +37181,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_EASTER_WHITE",
-        "itemName": "Snow Bunny Stalker Hat unlock"
+        "itemName": "Wardrobe Skin : Snow Bunny Stalker Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_EASTER_WHITE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_EASTER_BROWN",
@@ -35916,7 +37193,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_EASTER_BROWN",
-        "itemName": "Bunny Stalker Hat unlock"
+        "itemName": "Wardrobe Skin : Bunny Stalker Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_EASTER_BROWN",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_EASTER",
@@ -35924,7 +37205,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_EASTER",
-        "itemName": "Bunny Stalker Overalls unlock"
+        "itemName": "Wardrobe Skin : Bunny Stalker Overalls"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_EASTER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_EASTER",
@@ -35932,7 +37217,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_EASTER",
-        "itemName": "Bunny Stalker Shoes unlock"
+        "itemName": "Wardrobe Skin : Bunny Stalker Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_EASTER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_BACKPACK_VANITY_EASTER",
@@ -35940,7 +37229,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_BACKPACK_VANITY_EASTER",
-        "itemName": "Bunny Stalker Basket unlock"
+        "itemName": "Wardrobe Skin : Bunny Stalker Basket"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_BACKPACK_VANITY_EASTER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_PLAGUEDOC",
@@ -35948,7 +37241,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PLAGUEDOC",
-        "itemName": "Hygienic Mask unlock"
+        "itemName": "Wardrobe Skin : Hygienic Mask"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PLAGUEDOC",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_PLAGUEDOC",
@@ -35956,7 +37253,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_PLAGUEDOC",
-        "itemName": "Hygienic Coat unlock"
+        "itemName": "Wardrobe Skin : Hygienic Coat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_PLAGUEDOC",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_PLAGUEDOC",
@@ -35964,7 +37265,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_PLAGUEDOC",
-        "itemName": "Hygienic Boots unlock"
+        "itemName": "Wardrobe Skin : Hygienic Boots"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_PLAGUEDOC",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_SKELETON",
@@ -35972,7 +37277,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_SKELETON",
-        "itemName": "Laughing Skull unlock"
+        "itemName": "Wardrobe Skin : Laughing Skull"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_SKELETON",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_SKELETON",
@@ -35980,7 +37289,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_SKELETON",
-        "itemName": "Ribcage unlock"
+        "itemName": "Wardrobe Skin : Ribcage"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_SKELETON",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_SKELETON",
@@ -35988,7 +37301,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_SKELETON",
-        "itemName": "Legbones unlock"
+        "itemName": "Wardrobe Skin : Legbones"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_SKELETON",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_VANITY_SKELETON",
@@ -35996,7 +37313,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_SKELETON",
-        "itemName": "Ragged Cape unlock"
+        "itemName": "Wardrobe Skin : Ragged Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_SKELETON",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_PUMPKIN_01",
@@ -36004,7 +37325,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PUMPKIN_01",
-        "itemName": "Grinning Pumpkin Head unlock"
+        "itemName": "Wardrobe Skin : Grinning Pumpkin Head"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PUMPKIN_01",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_PUMPKIN_02",
@@ -36012,7 +37337,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PUMPKIN_02",
-        "itemName": "Sad Pumpkin Head unlock"
+        "itemName": "Wardrobe Skin : Sad Pumpkin Head"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PUMPKIN_02",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_PUMPKIN_03",
@@ -36020,7 +37349,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PUMPKIN_03",
-        "itemName": "Angry Pumpkin Head unlock"
+        "itemName": "Wardrobe Skin : Angry Pumpkin Head"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PUMPKIN_03",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_XMAS",
@@ -36028,7 +37361,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_XMAS",
-        "itemName": "Uncle Frost's Hat unlock"
+        "itemName": "Wardrobe Skin : Uncle Frost's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_XMAS",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_VANITY_2H_PORTALGUN_TELLAFRIEND",
@@ -36036,7 +37373,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_VANITY_2H_PORTALGUN_TELLAFRIEND",
-        "itemName": "Recruiter's Portal Cannon unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Portal Cannon"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_VANITY_2H_PORTALGUN_TELLAFRIEND",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_VANITY_2H_CHICKENGUN_EASTER",
@@ -36044,7 +37385,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_VANITY_2H_GUN_ANNIVERSARY",
-        "itemName": "Chromacannon unlock"
+        "itemName": "Firework Launcher : Chromacannon"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_VANITY_2H_GUN_ANNIVERSARY",
+        "itemName": "Firework Launcher"
     },
     {
         "itemId": "UNIQUE_VANITY_2H_GUN_ANNIVERSARY",
@@ -36072,7 +37417,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_ANNIVERSARY_2022",
-        "itemName": "Fifth-Year Stallion"
+        "itemName": "Riding Horse Skin : Fifth-Year Stallion"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_ANNIVERSARY_2022",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "UNIQUE_FURNITUREITEM_CARPET_ANNIVERSARY_2022",
@@ -36088,7 +37437,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_UNIQUE_VANITY_2H_CHICKENGUN_EASTER",
-        "itemName": "The Eggsecutioner"
+        "itemName": "Wardrobe Skin : The Eggsecutioner"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_UNIQUE_VANITY_2H_CHICKENGUN_EASTER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_VANITY_MAIN_BEERMUG_TELLAFRIEND",
@@ -36096,7 +37449,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_VANITY_MAIN_BEERMUG_TELLAFRIEND",
-        "itemName": "Recruiter's Beer Mug unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Beer Mug"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_VANITY_MAIN_BEERMUG_TELLAFRIEND",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_VANITY_MAIN_HORN_TELLAFRIEND",
@@ -36104,7 +37461,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_VANITY_MAIN_HORN_TELLAFRIEND",
-        "itemName": "Recruiter's Hunter Horn unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Hunter Horn"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_VANITY_MAIN_HORN_TELLAFRIEND",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_VANITY_MAIN_FOXCROP_TELLAFRIEND",
@@ -36112,7 +37473,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_VANITY_MAIN_FOXCROP_TELLAFRIEND",
-        "itemName": "Recruiter's Fox Crop unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Fox Crop"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_VANITY_MAIN_FOXCROP_TELLAFRIEND",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_VANITY_MAIN_TRUMPET_TELLAFRIEND",
@@ -36120,7 +37485,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_VANITY_MAIN_TRUMPET_TELLAFRIEND",
-        "itemName": "Recruiter's Trumpet unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Trumpet"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_VANITY_MAIN_TRUMPET_TELLAFRIEND",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_VANITY_MAIN_BEERMUG_02_TELLAFRIEND",
@@ -36128,7 +37497,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_VANITY_MAIN_BEERMUG_02_TELLAFRIEND",
-        "itemName": "Recruiter's Ale Mug unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Ale Mug"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_VANITY_MAIN_BEERMUG_02_TELLAFRIEND",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_FOUNDER_LEGENDARY",
@@ -36136,7 +37509,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_FOUNDER_LEGENDARY",
-        "itemName": "Legendary Explorer's Cloak unlock"
+        "itemName": "Wardrobe Skin : Legendary Explorer's Cloak"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_FOUNDER_LEGENDARY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_FOUNDER_LEGENDARY",
@@ -36144,7 +37521,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_FOUNDER_LEGENDARY",
-        "itemName": "Legendary Explorer's Hat unlock"
+        "itemName": "Wardrobe Skin : Legendary Explorer's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_FOUNDER_LEGENDARY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_FOUNDER_LEGENDARY",
@@ -36152,7 +37533,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_FOUNDER_LEGENDARY",
-        "itemName": "Legendary Explorer's Armor unlock"
+        "itemName": "Wardrobe Skin : Legendary Explorer's Armor"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_FOUNDER_LEGENDARY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_FOUNDER_LEGENDARY",
@@ -36160,7 +37545,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_FOUNDER_LEGENDARY",
-        "itemName": "Legendary Explorer's Boots unlock"
+        "itemName": "Wardrobe Skin : Legendary Explorer's Boots"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_FOUNDER_LEGENDARY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_FOUNDER_ELITE",
@@ -36168,7 +37557,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_FOUNDER_ELITE",
-        "itemName": "Explorer's Hat unlock"
+        "itemName": "Wardrobe Skin : Explorer's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_FOUNDER_ELITE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_FOUNDER_ELITE",
@@ -36176,7 +37569,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_FOUNDER_ELITE",
-        "itemName": "Explorer's Armor unlock"
+        "itemName": "Wardrobe Skin : Explorer's Armor"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_FOUNDER_ELITE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_FOUNDER_ELITE",
@@ -36184,7 +37581,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_FOUNDER_ELITE",
-        "itemName": "Explorer's Boots unlock"
+        "itemName": "Wardrobe Skin : Explorer's Boots"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_FOUNDER_ELITE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_STARTERPACK_LEGENDARY",
@@ -36192,7 +37593,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_STARTERPACK_LEGENDARY",
-        "itemName": "Legendary Adventurer's Cloak unlock"
+        "itemName": "Wardrobe Skin : Legendary Adventurer's Cloak"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_STARTERPACK_LEGENDARY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_STARTERPACK_LEGENDARY",
@@ -36200,7 +37605,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_STARTERPACK_LEGENDARY",
-        "itemName": "Legendary Adventurer's Hat unlock"
+        "itemName": "Wardrobe Skin : Legendary Adventurer's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_STARTERPACK_LEGENDARY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_STARTERPACK_LEGENDARY",
@@ -36208,7 +37617,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_STARTERPACK_LEGENDARY",
-        "itemName": "Legendary Adventurer's Armor unlock"
+        "itemName": "Wardrobe Skin : Legendary Adventurer's Armor"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_STARTERPACK_LEGENDARY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_STARTERPACK_LEGENDARY",
@@ -36216,7 +37629,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_STARTERPACK_LEGENDARY",
-        "itemName": "Legendary Adventurer's Boots unlock"
+        "itemName": "Wardrobe Skin : Legendary Adventurer's Boots"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_STARTERPACK_LEGENDARY",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_STARTERPACK_ELITE",
@@ -36224,7 +37641,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_STARTERPACK_ELITE",
-        "itemName": "Adventurer's Helmet unlock"
+        "itemName": "Wardrobe Skin : Adventurer's Helmet"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_STARTERPACK_ELITE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_STARTERPACK_ELITE",
@@ -36232,7 +37653,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_STARTERPACK_ELITE",
-        "itemName": "Adventurer's Jacket unlock"
+        "itemName": "Wardrobe Skin : Adventurer's Jacket"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_STARTERPACK_ELITE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_STARTERPACK_ELITE",
@@ -36240,7 +37665,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_STARTERPACK_ELITE",
-        "itemName": "Adventurer's Shoes unlock"
+        "itemName": "Wardrobe Skin : Adventurer's Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_STARTERPACK_ELITE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_SKELETON_UNDEAD",
@@ -36248,7 +37677,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_SKELETON_UNDEAD",
-        "itemName": "Undead Skull unlock"
+        "itemName": "Wardrobe Skin : Undead Skull"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_SKELETON_UNDEAD",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_SKELETON_UNDEAD",
@@ -36256,7 +37689,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_SKELETON_UNDEAD",
-        "itemName": "Undead Ribcage unlock"
+        "itemName": "Wardrobe Skin : Undead Ribcage"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_SKELETON_UNDEAD",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_SKELETON_UNDEAD",
@@ -36264,7 +37701,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_SKELETON_UNDEAD",
-        "itemName": "Undead Legs unlock"
+        "itemName": "Wardrobe Skin : Undead Legs"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_SKELETON_UNDEAD",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_VANITY_SKELETON_UNDEAD",
@@ -36272,7 +37713,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_SKELETON_UNDEAD",
-        "itemName": "Ragged Undead Cape unlock"
+        "itemName": "Wardrobe Skin : Ragged Undead Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_SKELETON_UNDEAD",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_TELLAFRIEND",
@@ -36280,7 +37725,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_TELLAFRIEND",
-        "itemName": "Recruiter's Cape unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_TELLAFRIEND",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_TELLAFRIEND_02",
@@ -36288,7 +37737,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_TELLAFRIEND_02",
-        "itemName": "Riuros Cape unlock"
+        "itemName": "Wardrobe Skin : Riuros Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_TELLAFRIEND_02",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_TELLAFRIEND_BATRIDER",
@@ -36296,7 +37749,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_TELLAFRIEND_BATRIDER",
-        "itemName": "Master of Bats Cape unlock"
+        "itemName": "Wardrobe Skin : Master of Bats Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_TELLAFRIEND_BATRIDER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_TELLAFRIEND_BANNER",
@@ -36304,7 +37761,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_TELLAFRIEND_BANNER",
-        "itemName": "Recruiter's Banner unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Banner"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_TELLAFRIEND_BANNER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_TELLAFRIEND_BANNER_02",
@@ -36312,7 +37773,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_TELLAFRIEND_BANNER_02",
-        "itemName": "Ogronios Banner unlock"
+        "itemName": "Wardrobe Skin : Ogronios Banner"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_TELLAFRIEND_BANNER_02",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_TOAD_TELLAFRIEND",
@@ -36320,7 +37785,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_TOAD_TELLAFRIEND",
-        "itemName": "Recruiter's Cape - Toad unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Cape - Toad"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_TOAD_TELLAFRIEND",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_BLOODHOUND_TELLAFRIEND",
@@ -36328,7 +37797,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_BLOODHOUND_TELLAFRIEND",
-        "itemName": "Recruiter's Cape - Rottweiler unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Cape - Rottweiler"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_BLOODHOUND_TELLAFRIEND",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_TIGER_TELLAFRIEND",
@@ -36336,7 +37809,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_TIGER_TELLAFRIEND",
-        "itemName": "Recruiter's Tiger Cape unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Tiger Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_TIGER_TELLAFRIEND",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_RAM_TELLAFRIEND",
@@ -36344,7 +37821,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_RAM_TELLAFRIEND",
-        "itemName": "Recruiter's Fur Cape unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Fur Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_RAM_TELLAFRIEND",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_WOLF_GREY_TELLAFRIEND",
@@ -36352,7 +37833,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_WOLF_GREY_TELLAFRIEND",
-        "itemName": "Recruiter's Grey Wolf Cape unlock"
+        "itemName": "Wardrobe Skin : Recruiter's Grey Wolf Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_WOLF_GREY_TELLAFRIEND",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "T6_CAPE_PLATE_UNDEAD",
@@ -36360,7 +37845,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_T6_CAPE_PLATE_UNDEAD",
-        "itemName": "Decorative Undead Platemail Cape unlock"
+        "itemName": "Wardrobe Skin : Decorative Undead Platemail Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T6_CAPE_PLATE_UNDEAD",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "T6_CAPE_LEATHER_UNDEAD",
@@ -36368,7 +37857,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_T6_CAPE_LEATHER_UNDEAD",
-        "itemName": "Decorative Undead Leather Cape unlock"
+        "itemName": "Wardrobe Skin : Decorative Undead Leather Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T6_CAPE_LEATHER_UNDEAD",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "T6_CAPE_CLOTH_UNDEAD",
@@ -36376,7 +37869,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_T6_CAPE_CLOTH_UNDEAD",
-        "itemName": "Decorative Undead Cloth Cape unlock"
+        "itemName": "Wardrobe Skin : Decorative Undead Cloth Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T6_CAPE_CLOTH_UNDEAD",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "T6_CAPE_PLATE_KEEPER",
@@ -36384,7 +37881,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_T6_CAPE_PLATE_KEEPER",
-        "itemName": "Decorative Keeper Platemail Cape unlock"
+        "itemName": "Wardrobe Skin : Decorative Keeper Platemail Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T6_CAPE_PLATE_KEEPER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "T6_CAPE_LEATHER_KEEPER",
@@ -36392,7 +37893,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_T6_CAPE_LEATHER_KEEPER",
-        "itemName": "Decorative Keeper Leather Cape unlock"
+        "itemName": "Wardrobe Skin : Decorative Keeper Leather Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T6_CAPE_LEATHER_KEEPER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "T6_CAPE_CLOTH_KEEPER",
@@ -36400,7 +37905,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_T6_CAPE_CLOTH_KEEPER",
-        "itemName": "Decorative Keeper Cloth Cape unlock"
+        "itemName": "Wardrobe Skin : Decorative Keeper Cloth Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T6_CAPE_CLOTH_KEEPER",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "T6_CAPE_PLATE_MORGANA",
@@ -36408,7 +37917,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_T6_CAPE_PLATE_MORGANA",
-        "itemName": "Decorative Morgana Platemail Cape unlock"
+        "itemName": "Wardrobe Skin : Decorative Morgana Platemail Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T6_CAPE_PLATE_MORGANA",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "T6_CAPE_LEATHER_MORGANA",
@@ -36416,7 +37929,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_T6_CAPE_LEATHER_MORGANA",
-        "itemName": "Decorative Morgana Leather Cape unlock"
+        "itemName": "Wardrobe Skin : Decorative Morgana Leather Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T6_CAPE_LEATHER_MORGANA",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "T6_CAPE_CLOTH_MORGANA",
@@ -36424,7 +37941,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_T6_CAPE_CLOTH_MORGANA",
-        "itemName": "Decorative Morgana Cloth Cape unlock"
+        "itemName": "Wardrobe Skin : Decorative Morgana Cloth Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_T6_CAPE_CLOTH_MORGANA",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_ROGUE",
@@ -36871,6 +38392,26 @@ const itemlist = [
         "itemName": "Arcane Direboar"
     },
     {
+        "itemId": "UNIQUE_HEAD_VANITY_ZEALOT",
+        "itemName": "Zealot's Hood"
+    },
+    {
+        "itemId": "UNIQUE_ARMOR_VANITY_ZEALOT",
+        "itemName": "Zealot's Harness"
+    },
+    {
+        "itemId": "UNIQUE_SHOES_VANITY_ZEALOT",
+        "itemName": "Zealot's Shoes"
+    },
+    {
+        "itemId": "UNIQUE_CAPE_VANITY_ZEALOT",
+        "itemName": "Zealot's Cape"
+    },
+    {
+        "itemId": "SKIN_DIREWOLF_ZEALOT",
+        "itemName": "Cursed Hound"
+    },
+    {
         "itemId": "UNIQUE_TOKEN_COMMUNITY",
         "itemName": "Community Token"
     },
@@ -36940,167 +38481,331 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_DRESS_BLUE_NON_TRADABLE",
-        "itemName": "Blue Princess Hat"
+        "itemName": "Wardrobe Skin : Blue Princess Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_DRESS_BLUE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_DRESS_BLACK_NON_TRADABLE",
-        "itemName": "Noblewoman's Jewelry"
+        "itemName": "Wardrobe Skin : Noblewoman's Jewelry"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_DRESS_BLACK_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PRIEST_NON_TRADABLE",
-        "itemName": "Monk's Hood"
+        "itemName": "Wardrobe Skin : Monk's Hood"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PRIEST_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_WEDDING_DRESS_NON_TRADABLE",
-        "itemName": "Bridal Veil"
+        "itemName": "Wardrobe Skin : Bridal Veil"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_WEDDING_DRESS_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
-        "itemName": "Groom's Hat"
+        "itemName": "Wardrobe Skin : Groom's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_BARD_NON_TRADABLE",
-        "itemName": "Bard's Hat"
+        "itemName": "Wardrobe Skin : Bard's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_BARD_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_INNKEEPER_NON_TRADABLE",
-        "itemName": "Innkeeper's Hat"
+        "itemName": "Wardrobe Skin : Innkeeper's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_INNKEEPER_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PIRATE_NON_TRADABLE",
-        "itemName": "Navigator's Hat"
+        "itemName": "Wardrobe Skin : Navigator's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PIRATE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_DRESS_BLUE_NON_TRADABLE",
-        "itemName": "Blue Princess Dress"
+        "itemName": "Wardrobe Skin : Blue Princess Dress"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_DRESS_BLUE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_DRESS_BLACK_NON_TRADABLE",
-        "itemName": "Noblewoman's Dress"
+        "itemName": "Wardrobe Skin : Noblewoman's Dress"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_DRESS_BLACK_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_PRIEST_NON_TRADABLE",
-        "itemName": "Monk's Robe"
+        "itemName": "Wardrobe Skin : Monk's Robe"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_PRIEST_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_WEDDING_DRESS_NON_TRADABLE",
-        "itemName": "Bridal Dress"
+        "itemName": "Wardrobe Skin : Bridal Dress"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_WEDDING_DRESS_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
-        "itemName": "Groom's Suit"
+        "itemName": "Wardrobe Skin : Groom's Suit"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_BARD_NON_TRADABLE",
-        "itemName": "Bard's Suit"
+        "itemName": "Wardrobe Skin : Bard's Suit"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_BARD_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_INNKEEPER_NON_TRADABLE",
-        "itemName": "Innkeeper's Shirt"
+        "itemName": "Wardrobe Skin : Innkeeper's Shirt"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_INNKEEPER_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_PIRATE_NON_TRADABLE",
-        "itemName": "Navigator's Coat"
+        "itemName": "Wardrobe Skin : Navigator's Coat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_PIRATE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_DRESS_BLUE_NON_TRADABLE",
-        "itemName": "Blue Princess Shoes"
+        "itemName": "Wardrobe Skin : Blue Princess Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_DRESS_BLUE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_DRESS_BLACK_NON_TRADABLE",
-        "itemName": "Noblewoman's Shoes"
+        "itemName": "Wardrobe Skin : Noblewoman's Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_DRESS_BLACK_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_PRIEST_NON_TRADABLE",
-        "itemName": "Monk's Sandals"
+        "itemName": "Wardrobe Skin : Monk's Sandals"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_PRIEST_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_WEDDING_DRESS_NON_TRADABLE",
-        "itemName": "Bridal Shoes"
+        "itemName": "Wardrobe Skin : Bridal Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_WEDDING_DRESS_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
-        "itemName": "Groom's Shoes"
+        "itemName": "Wardrobe Skin : Groom's Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_BARD_NON_TRADABLE",
-        "itemName": "Bard's Shoes"
+        "itemName": "Wardrobe Skin : Bard's Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_BARD_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_INNKEEPER_NON_TRADABLE",
-        "itemName": "Innkeeper's Shoes"
+        "itemName": "Wardrobe Skin : Innkeeper's Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_INNKEEPER_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_PIRATE_NON_TRADABLE",
-        "itemName": "Navigator's Boots"
+        "itemName": "Wardrobe Skin : Navigator's Boots"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_PIRATE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
-        "itemName": "Groom's Cape"
+        "itemName": "Wardrobe Skin : Groom's Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_VANITY_2H_CHICKENGUN_EASTER_NON_TRADABLE",
-        "itemName": "The Eggsecutioner"
+        "itemName": "Wardrobe Skin : The Eggsecutioner"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_VANITY_2H_CHICKENGUN_EASTER_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_OFF_VANITY_PRIEST_NON_TRADABLE",
-        "itemName": "Monk's Walking Staff"
+        "itemName": "Wardrobe Skin : Monk's Walking Staff"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_OFF_VANITY_PRIEST_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_OFF_VANITY_WEDDING_DRESS_NON_TRADABLE",
-        "itemName": "Bridal Bouquet"
+        "itemName": "Wardrobe Skin : Bridal Bouquet"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_OFF_VANITY_WEDDING_DRESS_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_OFF_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
-        "itemName": "Wedding Ring"
+        "itemName": "Wardrobe Skin : Wedding Ring"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_OFF_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_OFF_VANITY_INNKEEPER_NON_TRADABLE",
-        "itemName": "Innkeeper's Beer Mug"
+        "itemName": "Wardrobe Skin : Innkeeper's Beer Mug"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_OFF_VANITY_INNKEEPER_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_OFF_VANITY_PIRATE_NON_TRADABLE",
-        "itemName": "Navigator's Parrot Cage"
+        "itemName": "Wardrobe Skin : Navigator's Parrot Cage"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_OFF_VANITY_PIRATE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_BROWN_NON_TRADABLE",
-        "itemName": "Brown Mare"
+        "itemName": "Riding Horse Skin : Brown Mare"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_BROWN_NON_TRADABLE",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_KEEPER_NON_TRADABLE",
-        "itemName": "Keeper Horse"
+        "itemName": "Riding Horse Skin : Keeper Horse"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_KEEPER_NON_TRADABLE",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_NON_TRADABLE",
-        "itemName": "Nightshade Unicorn"
+        "itemName": "Riding Horse Skin : Nightshade Unicorn"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_NON_TRADABLE",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_T5_GUILD_NON_TRADABLE",
-        "itemName": "Expert's Guild Warhorse"
+        "itemName": "Armored Horse Skin : Expert's Guild Warhorse"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_T5_GUILD_NON_TRADABLE",
+        "itemName": "Armored Horse Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_T6_GUILD_NON_TRADABLE",
-        "itemName": "Master's Guild Warhorse"
+        "itemName": "Armored Horse Skin : Master's Guild Warhorse"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_T6_GUILD_NON_TRADABLE",
+        "itemName": "Armored Horse Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_T7_GUILD_NON_TRADABLE",
-        "itemName": "Grandmaster's Guild Warhorse"
+        "itemName": "Armored Horse Skin : Grandmaster's Guild Warhorse"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_T7_GUILD_NON_TRADABLE",
+        "itemName": "Armored Horse Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_T8_GUILD_NON_TRADABLE",
-        "itemName": "Elder's Guild Warhorse"
+        "itemName": "Armored Horse Skin : Elder's Guild Warhorse"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_T8_GUILD_NON_TRADABLE",
+        "itemName": "Armored Horse Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_OX_BISON_AH_NON_TRADABLE",
-        "itemName": "Auction House Ox"
+        "itemName": "Transport Ox Skin : Auction House Ox"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_OX_BISON_AH_NON_TRADABLE",
+        "itemName": "Transport Ox Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_OX_BISON_ROYAL_NON_TRADABLE",
-        "itemName": "Royal Ox"
+        "itemName": "Transport Ox Skin : Royal Ox"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_OX_BISON_ROYAL_NON_TRADABLE",
+        "itemName": "Transport Ox Skin"
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_OX_BLACKMARKET_NON_TRADABLE",
-        "itemName": "Black Market Ox"
+        "itemName": "Transport Ox Skin : Black Market Ox"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_OX_BLACKMARKET_NON_TRADABLE",
+        "itemName": "Transport Ox Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_DRESS_GREEN",
@@ -37108,7 +38813,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_DRESS_GREEN_NON_TRADABLE",
-        "itemName": "Green Princess Hat unlock"
+        "itemName": "Wardrobe Skin : Green Princess Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_DRESS_GREEN_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_DRESS_GREEN",
@@ -37116,7 +38825,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_DRESS_GREEN_NON_TRADABLE",
-        "itemName": "Green Princess Dress unlock"
+        "itemName": "Wardrobe Skin : Green Princess Dress"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_DRESS_GREEN_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_DRESS_GREEN",
@@ -37124,7 +38837,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_DRESS_GREEN_NON_TRADABLE",
-        "itemName": "Green Princess Shoes unlock"
+        "itemName": "Wardrobe Skin : Green Princess Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_DRESS_GREEN_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_ENTERTAINER",
@@ -37132,7 +38849,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_ENTERTAINER_NON_TRADABLE",
-        "itemName": "Entertainer's Mask unlock"
+        "itemName": "Wardrobe Skin : Entertainer's Mask"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_ENTERTAINER_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_ENTERTAINER",
@@ -37140,7 +38861,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_ENTERTAINER_NON_TRADABLE",
-        "itemName": "Entertainer's Costume unlock"
+        "itemName": "Wardrobe Skin : Entertainer's Costume"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_ENTERTAINER_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_ENTERTAINER",
@@ -37148,7 +38873,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_ENTERTAINER_NON_TRADABLE",
-        "itemName": "Entertainer's Shoes unlock"
+        "itemName": "Wardrobe Skin : Entertainer's Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_ENTERTAINER_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_NIGHTGOWN",
@@ -37156,7 +38885,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_NIGHTGOWN_NON_TRADABLE",
-        "itemName": "Sleeping Cap unlock"
+        "itemName": "Wardrobe Skin : Sleeping Cap"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_NIGHTGOWN_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_VANITY_HYENA",
@@ -37164,7 +38897,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_HYENA_NON_TRADABLE",
-        "itemName": "Hyena Cape unlock"
+        "itemName": "Wardrobe Skin : Hyena Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_HYENA_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "SKIN_COUGAR_AMETHYST",
@@ -37172,7 +38909,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_AMETHYST",
-        "itemName": "Amethyst Cougar unlock"
+        "itemName": "Swiftclaw Skin : Amethyst Cougar"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_COUGAR_AMETHYST",
+        "itemName": "Swiftclaw Skin"
     },
     {
         "itemId": "SKIN_GIANTSTAG_ALPACA_BROWN",
@@ -37180,7 +38921,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ALPACA_BROWN",
-        "itemName": "Stag Skin Brown Alpaca"
+        "itemName": "Stag Skin : Brown Alpaca"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ALPACA_BROWN",
+        "itemName": "Stag Skin"
     },
     {
         "itemId": "SKIN_HORSE_UNICORN_AMETHYST",
@@ -37188,7 +38933,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_AMETHYST",
-        "itemName": "Amethyst Unicorn unlock"
+        "itemName": "Riding Horse Skin : Amethyst Unicorn"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_AMETHYST",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_PIRATE_GREEN",
@@ -37196,7 +38945,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PIRATE_GREEN_NON_TRADABLE",
-        "itemName": "Green Navigator's Hat unlock"
+        "itemName": "Wardrobe Skin : Green Navigator's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PIRATE_GREEN_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_PIRATE_GREEN",
@@ -37204,7 +38957,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_PIRATE_GREEN_NON_TRADABLE",
-        "itemName": "Green Navigator's Coat unlock"
+        "itemName": "Wardrobe Skin : Green Navigator's Coat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_PIRATE_GREEN_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_PIRATE_GREEN",
@@ -37212,7 +38969,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_PIRATE_GREEN_NON_TRADABLE",
-        "itemName": "Green Navigator's Boots unlock"
+        "itemName": "Wardrobe Skin : Green Navigator's Boots"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_PIRATE_GREEN_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_OFF_VANITY_PIRATE_RED",
@@ -37220,7 +38981,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_OFF_VANITY_PIRATE_RED_NON_TRADABLE",
-        "itemName": "Navigator's Red Parrot Cage unlock"
+        "itemName": "Wardrobe Skin : Navigator's Red Parrot Cage"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_OFF_VANITY_PIRATE_RED_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_OFF_VANITY_PIRATE_GREEN",
@@ -37228,7 +38993,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_OFF_VANITY_PIRATE_GREEN_NON_TRADABLE",
-        "itemName": "Navigator's Green Parrot Cage unlock"
+        "itemName": "Wardrobe Skin : Navigator's Green Parrot Cage"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_OFF_VANITY_PIRATE_GREEN_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_OFF_VANITY_PIRATE_COCKATOO",
@@ -37236,7 +39005,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_OFF_VANITY_PIRATE_COCKATOO_NON_TRADABLE",
-        "itemName": "Navigator's Cockatoo Cage unlock"
+        "itemName": "Wardrobe Skin : Navigator's Cockatoo Cage"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_OFF_VANITY_PIRATE_COCKATOO_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_PRIEST_RED",
@@ -37244,7 +39017,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PRIEST_RED_NON_TRADABLE",
-        "itemName": "Exiled Monk's Hood unlock"
+        "itemName": "Wardrobe Skin : Exiled Monk's Hood"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_PRIEST_RED_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_PRIEST_RED",
@@ -37252,7 +39029,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_PRIEST_RED_NON_TRADABLE",
-        "itemName": "Exiled Monk's Robe unlock"
+        "itemName": "Wardrobe Skin : Exiled Monk's Robe"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_PRIEST_RED_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_PRIEST_RED",
@@ -37260,7 +39041,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_PRIEST_RED_NON_TRADABLE",
-        "itemName": "Exiled Monk's Sandals unlock"
+        "itemName": "Wardrobe Skin : Exiled Monk's Sandals"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_PRIEST_RED_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_OFF_VANITY_PRIEST_RED",
@@ -37268,7 +39053,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_OFF_VANITY_PRIEST_RED_NON_TRADABLE",
-        "itemName": "Exiled Monk's Walking Staff unlock"
+        "itemName": "Wardrobe Skin : Exiled Monk's Walking Staff"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_OFF_VANITY_PRIEST_RED_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_CAPE_VANITY_SNOWLEOPARD",
@@ -37276,7 +39065,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_SNOWLEOPARD_NON_TRADABLE",
-        "itemName": "Snow Leopard Cape unlock"
+        "itemName": "Wardrobe Skin : Snow Leopard Cape"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_CAPE_VANITY_SNOWLEOPARD_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_RICH_NOBLE_PURPLE",
@@ -37284,7 +39077,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_RICH_NOBLE_PURPLE_NON_TRADABLE",
-        "itemName": "Purple Rich Noble's Hat unlock"
+        "itemName": "Wardrobe Skin : Purple Rich Noble's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_RICH_NOBLE_PURPLE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_RICH_NOBLE_PURPLE",
@@ -37292,7 +39089,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_RICH_NOBLE_PURPLE_NON_TRADABLE",
-        "itemName": "Purple Rich Noble's Doublet unlock"
+        "itemName": "Wardrobe Skin : Purple Rich Noble's Doublet"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_RICH_NOBLE_PURPLE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_RICH_NOBLE_PURPLE",
@@ -37300,7 +39101,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_RICH_NOBLE_PURPLE_NON_TRADABLE",
-        "itemName": "Purple Rich Noble's Footwear unlock"
+        "itemName": "Wardrobe Skin : Purple Rich Noble's Footwear"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_RICH_NOBLE_PURPLE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_NIGHTGOWN_BLACK",
@@ -37308,7 +39113,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_NIGHTGOWN_BLACK_NON_TRADABLE",
-        "itemName": "Black Sleeping Cap unlock"
+        "itemName": "Wardrobe Skin : Black Sleeping Cap"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_NIGHTGOWN_BLACK_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_NIGHTGOWN_BELL",
@@ -37316,7 +39125,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_NIGHTGOWN_BELL_NON_TRADABLE",
-        "itemName": "Sleeping Cap with Bell unlock"
+        "itemName": "Wardrobe Skin : Sleeping Cap with Bell"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_NIGHTGOWN_BELL_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_HEAD_VANITY_BARD_BLUE",
@@ -37324,7 +39137,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_BARD_BLUE_NON_TRADABLE",
-        "itemName": "Blue Bard's Hat unlock"
+        "itemName": "Wardrobe Skin : Blue Bard's Hat"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_HEAD_VANITY_BARD_BLUE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_ARMOR_VANITY_BARD_BLUE",
@@ -37332,7 +39149,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_BARD_BLUE_NON_TRADABLE",
-        "itemName": "Blue Bard's Suit unlock"
+        "itemName": "Wardrobe Skin : Blue Bard's Suit"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_ARMOR_VANITY_BARD_BLUE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "UNIQUE_SHOES_VANITY_BARD_BLUE",
@@ -37340,7 +39161,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_BARD_BLUE_NON_TRADABLE",
-        "itemName": "Blue Bard's Shoes unlock"
+        "itemName": "Wardrobe Skin : Blue Bard's Shoes"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SHOES_VANITY_BARD_BLUE_NON_TRADABLE",
+        "itemName": "Wardrobe Skin"
     },
     {
         "itemId": "SKIN_DIREWOLF_FENNEK",
@@ -37348,7 +39173,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_FENNEK",
-        "itemName": "Fennec unlock"
+        "itemName": "Direwolf Skin : Fennec"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_DIREWOLF_FENNEK",
+        "itemName": "Direwolf Skin"
     },
     {
         "itemId": "SKIN_HORSE_QUESTING_BEAST_GREEN",
@@ -37356,7 +39185,11 @@ const itemlist = [
     },
     {
         "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_QUESTING_BEAST_GREEN",
-        "itemName": "Green Chimera unlock"
+        "itemName": "Riding Horse Skin : Green Chimera"
+    },
+    {
+        "itemId": "UNIQUE_UNLOCK_SKIN_HORSE_QUESTING_BEAST_GREEN",
+        "itemName": "Riding Horse Skin"
     },
     {
         "itemId": "T1_KILL_EMOTE_TOMBSTONE_CHARGES_NONTRADABLE",
